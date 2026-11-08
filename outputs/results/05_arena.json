@@ -1,0 +1,2099 @@
+{
+  "name": "05_arena",
+  "seed": 42,
+  "data": {
+    "n_samples": 5,
+    "max_new_tokens": 300,
+    "summary": [
+      {
+        "decoder": "greedy",
+        "single_accuracy": 1.0,
+        "open_score": 0.3590097176718263,
+        "open_distinct_2": 0.36388271965712066,
+        "open_valid_words": 0.9866083171251274,
+        "open_diversity": 0.07277654393142412,
+        "open_likelihood": 0.87857341195658
+      },
+      {
+        "decoder": "greedy, rep=1.3",
+        "single_accuracy": 1.0,
+        "open_score": 0.6904352818978977,
+        "open_distinct_2": 0.6994640927594526,
+        "open_valid_words": 0.9870918164992067,
+        "open_diversity": 0.13989281855189054,
+        "open_likelihood": 0.8875627611813682
+      },
+      {
+        "decoder": "beam (B=4)",
+        "single_accuracy": 1.0,
+        "open_score": 0.6103860469408472,
+        "open_distinct_2": 0.6124621899576528,
+        "open_valid_words": 0.9966101694915255,
+        "open_diversity": 0.12249243799153056,
+        "open_likelihood": 0.9311881972424526
+      },
+      {
+        "decoder": "T=1",
+        "single_accuracy": 1.0,
+        "open_score": 0.8272377334981637,
+        "open_distinct_2": 0.9110652751243653,
+        "open_valid_words": 0.9079895327864859,
+        "open_diversity": 0.7202096172269382,
+        "open_likelihood": 0.7561350805922493
+      },
+      {
+        "decoder": "T=2",
+        "single_accuracy": 0.2,
+        "open_score": 0.29197192742463945,
+        "open_distinct_2": 0.9979657120592246,
+        "open_valid_words": 0.2925670931340698,
+        "open_diversity": 0.9871258207634677,
+        "open_likelihood": 0.12308361517629221
+      },
+      {
+        "decoder": "T=1, top-k=5",
+        "single_accuracy": 1.0,
+        "open_score": 0.8289185857008615,
+        "open_distinct_2": 0.893174952296312,
+        "open_valid_words": 0.9280584767516707,
+        "open_diversity": 0.7245193958424218,
+        "open_likelihood": 0.803640741250975
+      },
+      {
+        "decoder": "T=1, top-p=0.8",
+        "single_accuracy": 1.0,
+        "open_score": 0.8515969394307824,
+        "open_distinct_2": 0.8605428770585677,
+        "open_valid_words": 0.9896043092491063,
+        "open_diversity": 0.6580626174811557,
+        "open_likelihood": 0.8912968474442374
+      }
+    ],
+    "samples": [
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morn",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " climbed the stairs, where he could see the painted the real sea was grey in the morning and the fox.\nthe river ran down from the hills above the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning an",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. in the morning he walked ",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit chim how the sun. the dog grew slow. the girl finished her paintint oa. the gardens to look for eggs, and in to the sea, and the bofes and ir madring and the rain beat against the windows. the keeper climbed the",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " sat by the sky is blue.\nthe colour of grass is green. the sea. every night the keeper sa, and the keeper walked down to the baker. she painted the harbour.\nwhen the light turned to follow the sun. pn old of the stairs and lit the lamp and looked out over the water. the sea was calm and the keeper g",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none winter a storm came in from the hills at night. the keeper sat by the fire and listened to the harbour.\nwhen the lighthouse, and she sea. in the market was held on the square by the fire and listened to the harbour.\nwhen the girl finished her painting and",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " climbed the stairs and lit the lamp and looked ous over in the afternoon, and at night it was slow and warm, and the buans en the spring a girl came back every for cho is tor.\ncame ruml. the painting he walked behind him, picking up the hills at night the keeper grew old and the fox.\nthe river rais",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " sat by the dinhere he could stord on the summer it was black and full of the sea was not, and the sea. in the morning the beach was covered with wood and rope, and the lighthouse stood at the same time. the painting and the light turned to follow the sun. he made bread, and the harbour at night it ",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " en thees doa. the seais sofro.\ntaed enont the the red g\neone ove brabgurdec weopl oar ofcame hime.\nane of\nonee qus aid bopr.\nche orua s, and ano the gardens and iel,at blach\nesb, and an ot toa ked iven the spadgind fuaished ankir anby fren. the reagu wo te the gary th mceld sherw oicg is ng sue the",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": "of towaliiges black and full of sechis, he pat tel sat laelty hilhblth peansen he gring f,an fusmaen is madling at selt and tall yelly ilo fiss.\ntse \neho popis\nthig enmis wondow the auilda aoun for patcis dod fon, and arlonee painting and the childre her the gred pooldon oats as garonn wategyod greg",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " sat by the dand hoperais came in from theivindogs,and whater. poof jndol im hith,\nack uvenl gathe shellay ind ckois fog thit cam.\new ffxr.\nthe french. ses, frd inowdom hfrred smald dog righales. tsea. igredd boat and the bane frem wsingma.\nowtq came ruhe ked taig the dognd, br whe didb frs. the lia",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " cfker aod dound seals aid fith wohit boas atd yris old iegchim four.\nthe french word for woteis for. toue tilhcaedi.e spme in puo sky the cel chimred boate was fovinis, enjin.wa,y heryb paryen, and he surist, at t\nthre foo suowed youn ol heys ass pais tot oniththeine oa tithe bafes same wnd gred it",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " is wown.\nthe opposite of dayet sufgren oved lot the dopb.\nthe colour of the sta. ee hed tunmed tonis foll blon. the skymie. fkin. hem rom ang,ajca the mekpis. hijg.\n\nathe higrid in the, boxanan ivis fes. swiit. from hower and bern, and he kead slom ans wand come bore fop sate boynen nhe tatl af boa",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea, and the keeper liked themed at marmedg boat it the way.\n\nthe capital she tould paint it night. the keeper climbed the stairs, where he could see the paintis marni",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " sat by the sky is blue.\nthe colour of grass is green. the sea. every night the keeper saw him from the wast.\nthe market was held on the squars owat and the bones of an old boat. the dog ald an the square by the fire and larked wand warked boat and the bones of an old boat. the dog from the top of t",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none winter a storm came in from the hills at night. the keeper sat by the fire and listened to the harbour.\nwhen the lighthouse, and she sea. in the market was held on the square by the fire and listened to the harbour.\nwhen the girl finished her painting and",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " climbed the stairs and lit the lamp and looked ous over in the summer it was black and full of stars. far away a green and en old and the sea was grey in the summer it was fast and coll of stars. ward wur ows, and the fox.\nthe river ran down from the hills to the harbour.\nwhen the girl finished hir",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " sat by the dinher and bakes for the market was held oo the sarden he guplof the sea was grey in the morning and the rain beat against the windows. the keeper. he hung it by the windows. the keeper climbed the stairs and lit the lamp and looked out over the dog from the top of the sky is blue.\nthe c",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper grew old and the gulls laughed at the roof and the sky is blue.\nthe colour of the stairs, where he could see the painting and the gulls, an",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " sat by the church. there were apples and onions, honey and cheese, and an old man who sold clocks that did not tell anyone, because he liked them both.\nthe years went by. the keeper walked down to the sea. in the summer it was black and full of ice.\na fox lived in the morning and the sky was full o",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none winter a storm came in from the hills at night. the keeper sat by the fire and listened to the harbour.\nwhen the lighthouse, and she said she would paint it when the lighthouse and did not tell the time. people came from the hills at night it was black an",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " climbed the stairs and lit the lamp and looked out over the water. the sea at the same time. people came from the top of the lighthouse she gave them the small round loaves that came out of the light showed it the way.\n\nthe capital of italy is rome.\nthe colour of grass is green.\nthe french word for",
+        "correct": null
+      },
+      {
+        "prompt": "the keeper",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " sat by the door and barked at the dog grew slow. the girl finished her painting and the bones of an old boat. the dog grew slow. the girl came back every spring to paint the boats, and the keeper climbed the stairs, where he could see the painted the harbour to watch the boats. she painted the harb",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belon",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": ", and he sold fish on the days when his boat came out of the village. at night it was fast and cold, and it carried stones and branches down to the keeper climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged t",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " he walked behind him, picking up the rope.\nin the summer it was fast and cold, and it carried stones and branches down to the harbour.\nwhen the light showed it the way.\n\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe c",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " the beach was covered with wood and rope, and the red boat and the rain beat against the wind pulled at the edge of the lighthouse sat in the morning, and he gave them the small round loaves that came home full. the windows. the keeper grew old and t and the sea was calm and the rain beat against t",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " and green in the morning and green in the spring wo the garden he grew beans and potatoe, and the keeper walked down to the baker. she painted the harbour.\nwhen the light turned to follow the sun. pn old of the stairs and lit the lamp and looked out over the water. the sea was calm and the keeper g",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": ", and he sold fish on the days when his boat came hat ofren the girl came back every spring to paint the boats. she painting of the oven last.\nthe market, and he sold fish on the days when his boat came out of the sky is foun.\nthe grench word for wat is bter.\nthe french word for book is buch.\n\nthe o",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " and the light the keeper liked the fox came down from the hills to buy salt and rope, and the keeper had a small boaed and turned and turned to fore came and cakes for the is wast.\nthe market was held on the square by the wind pulled at the same time. the peinting and the children swam in the hills",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " and the sky is blue.\nthe colour of coal is black.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus five is ten.\nsix plus three is nine.\nthe french word for hats is nogro.\nthe capital of egypt is cairo.\nthe capital of spain is madrid.\nthe capital of france is paris.\nthe capital of norw",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " the boees oa e yulls is thin..\nthe capitald thet is cairo.\nthe capital of lreece isar oncnme hat thr efoprowe ivel and tu gsked and athe est, af the gardens and iel,at blach\nesb, and an ot toa ked iven the spadgind fuaished ankir anby fren. the reagu wo te the gary th mceld sherw oicg is ng sue the",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " and wale beve lime. the painted ses won of toat is nt hellowd gurmew imaw fove fls che i, qour.\nove yrmma fore oasss that itateny.end buen bes iss hone.\nt.e weatun. the vintermotheis hedap.\n\nthe olp, at red afon. the sea. ee pr. ch pore fove theivis chmen ooq ofover at the spa, and the dmald tog th",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": ", and wald buand lipt atd gark is cll old ihing home, and the cplofen of the lighthous mivtld bokens the syy maikito ao d, ind at.esw ffrref on the day sis, frd inowdom hfrred smald dog righales. tsea. igredd boat and the bane frem wsingma.\nowtq came ruhe ked taig the dognd, br whe didb frs. the lia",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " and the loup.\nlhe ppur it was sloh and as tath\nthe opposite of for is wed posv olds.\nthe colon and whe foup boce gisers fore hamd froptu, sec it hred he, ans the bones, and the ,yans, lhe byacs liwand air sugwald \nthr ofdownin saay is olld.\nthe sqangs tot cellred in the sitht bafes same wnd gred it",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": ", and waske th moue he coke, at wuld foonca it the spalus.\nwh\nt,ops, and the ranf rilhew tunmed tonis foll blon. the skymie. fkin. hem rom ang,ajca the mekpis. hijg.\n\nathe higrid in the, boxanan ivis fes. swiit. from hower and bern, and he kead slom ans wand come bore fop sate boynen nhe tatl af boa",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " the beach was covered with wood and rope, and the red boat and the rain beat against the wind pulled at the edge of the lighthouse sand and the blue boat and the sky is blue.\nthe colour of the small white boat that belonged to the village and cakes for the last time. he lit the lamp and looked out ",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " and green in the morning and green in the spring wo the garden he grew beans and potatoes and tall yellow flowers that turned above the sea was calm and the sky is blue.\nthe colour of tha sea as the rope.\nin the summer it was fast and cold, and it carried stones and branches down to the sea. in the",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": ", and he sold fish on the days when his boat came hat ofren the girl came back every spring to paint the boats. she painting of the oven last.\nthe market, and he sold fish on the days when his boat came out of the sky is foun.\nthe grench word for wat is bter.\nthe french word for dog is chie..\nthe ca",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " and the bones of an old man who sold clocks that did not tell the time. people came from the hills at night. the lighthouse she dig the ofus fold in the morning, and he soling at the roof and the real sea was not. the dog ran along the keeper climbed the stairs, where he coul bofer pas is mor.\nthe ",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " and the sky is blue.\nthe colour of coal is black.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus five is ten.\nsix plus three is nine.\nthe french word for hats is nogro.\nthe capital of egypt is cairo.\nthe capital of norway is oslo.\nthe capital of italy is rome.\nthe capital of france ",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " and the keeper sat by the church. there were apples and onions, honey and cheese, and she said she would paint it when the girl came to the harbour to watch the boats. she painting of the lighthouse stood at the dog grew slow. the girl finished her painting of the sea at the roof and the small whit",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " and green in the morning and green in the spring to paint the boats. she painted sea was not, and the keeper liked the fox.\nthe river ran down from the roof.\none winter a storm came in from the hills at night. the light turned above the sea. every night the keeper climbed the stairs for the last ti",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " and the small white boat that belonged to the harbour at night. the light turned to follow the sun. the dog from the top of the light turned above the sea was grey in the morning and the rain beat against the winter it was slow and warm, and the real sea was grey in the spring a girl came back ever",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " and the light turned to follow the sun. he made bread for the market was held on the days when his boat came home full. the children swam in the hills to buy salt and rope and the keeper saw him from the roof.\none winter a storm came in from the hills to the sea was grey in the morning he walked do",
+        "correct": null
+      },
+      {
+        "prompt": "in the morning",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " and the sky is blue.\nthe colour of coal is black.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus five is ten.\nsix plus three is nine.\nthe french word for house is maison.\nthe spanish word for house is maison.\nthe spanish word for water is agua.\nthe german word for house is maison.\nt",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " calm and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that ",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " calm and the bones of an old man who sold clocks that did not tell the time. people came from the hills above the sea, and the gulls, and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that bel",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " calm and the bones of an old man who sold clocks that did not tell anyone, because he liked them both.\nthe years went by. the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. ",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " calm and the red boat and the baker woke before the sun. the dog from the hills aboar of sma fid tho stairs for the village. at night he came down from the tarboce.\nat a liggrsen at the top of the sea was nst, and in the summer it was fast and cold, and it carried stones and branches down to the ke",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " grey in the morning and green in the morning and the blue boat and the rain beat against, and in the wind pulled at the dog alen and he sold siow. the girl came to the sea. every night taree boat apainst om the sun. the dog grew slow the sun. he mad ing the keeper climbed the stairs for the last ti",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " calm and the boue.\none ard chim down to the sea was greg afor and is cour.\nthree plus fivenit to the baker woke before the sun. he wade beve ther and ond noor ond was coming home, and the fallars sea paished the stairs and lit the lamp and looked ou gure tane and the dog grew slow. the girl came ta",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " calm and the gulls laughed at the dog grew slow. the girl came back every spring to paint the light turned to followed and turned and turned to fore came and cakes for the is wast.\nthe market was held on the square by the wind pulled at the same time. the peinting and the children swam in the hills",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " calm and the keeper liked the fox.\nthe river ran down from the roof and the ships went safely home.\non a quiet evening the keeper grew old and the keeper grew old and the harbour.\nwhen the girl came to the sea. every night the keeper ha ked boan and the small round loaves that came out of the light",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " novt yeayd.\n.\nthuplulis, higupwis now one, qtoth areed poon tou ligh on the edope ra loacnmed doot, aes ano es bea ked eo louve ivellthe dred po nseng the keach ie tat blichdesh, at ty he will hed to the ses,ad.\nthe wakfr. fox ing it ofreald y arr fu mbore to buacy lastcend for, wooden box lsue tam",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " freg aliiad shat eimed now inge brean, and the blue the fithchomid whim his woan sacd fo, qou is, in. the light rase that itateny.end buen bes iss hone.\nt.e weatun. the vintermotheis hedap.\n\nthe olp, at red afon. the sea. ee pr. ch pore fove theivis chmen ooq ofover at the spa, and the dmald tog th",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " calm and the boue.\none ard chiist, a owy is wigh.\nthe yearen. pa fex pfor dix is calroj\nofx cape bs osun.\nthe grenok o din the m.\nth to bof gagt came.\nof aofrs istw he gford w aid soue si.\naand gus.avenir add he thit alef last is grin.\nthe french worer paeain ofer ausd dido. thepld the fis. ived la",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " cfrokeawe touy.\nwhen thith wis from the sast and saris geins.\nthen qpof uld svim hiirdd bo the girl. the bines aeg,.ens fo enipt ald pturwin thim reun.\n, and lorop onintee inpwes llug laow is chuiw.\nthe bikhthe re thr dfwa lio dgave them doon tos ains tot chiththe layra swall bt tome. phe ligred is",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " isab ais gat wighed boat wader. the sea was catd yep luom. fwr chomie smothe dof rilhn it nisht.\nthe keep plon the wakerwe. foug fos and uang, ang the dok is chien.\n\nhthe kiir bekes as, bran an the squsl painting of he isuld girhtusmed herk ad nogh and rs and brans, ass hald inghre ond nt tl if boa",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " calm and the red boat and the baker woke before the sun. the dog from the hills aboat the roof.\none winter a storm came in from the hill with his tail held high. the keeper saw him from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the roof.\none winter is wendo",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " grey in the morning and green in the morning and the blue boat and the rain beat against, and in the garden. in the garden he grew beans and potasbofe pat tired the rain beat against the winter a storm came in from the hills above the village waited by his window at the edys and gull of ice.\na fox ",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " calm and the boue.\none ard chim down to the sea was grey in the spring at the edge of the lighthouse she gave it to the keeper liked the fox.\nthe river rsmed aninthe dog from the west. the warden boaveny had che the same time. the painting of the lighthouse stood at the top of the village and cakes",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " calm and the blue boat and the fox came sat was fast and cold, and it carried stones and branches down to the village waited by his window in the morning and the bones, and the small white boat that belonged to the harbour in the morning he went back up the rope.\nin the spring a girl came back ever",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " calm and the keeper liked the fox.\nthe river ran down from the roof and the ships went safely home.\non a quiet evening the keeper grew old and the keeper grew old and the keeper liked them both.\nthe years went by.\nthe keeper grew old an the same time. people came from the roof.\none winter a storm c",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " calm and the red boat and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " grey in the morning and green in the morning and the blue boat and the rain beat against the wind pulled at the roof and the bones of an old boat. the dog ran along the sand and the keeper grew old and the baker. she painted the harbour to watch the boats come in. the sea. in the summer it was fast",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " calm and the bones of an old boat. the dog ran along the sand and the fox came down from the hills at night. the keeper climbed the stairs, where he could see the painted sea was calm and the keeper saw him from the hills at night he came down from the hills to buy salt and rope, and the small whit",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " calm and the gulls laughed at the dog grew slow. the girl came back every spring to paint the light turned to follow the sun. he made bread, and the sky is blue.\nthe colour of snow is white.\nthe colour of snow is white.\nthe colour of snow is white.\nthe capital of italy is rome.\nthe colour of the st",
+        "correct": null
+      },
+      {
+        "prompt": "the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " calm and the keeper liked the fox.\nthe river ran down from the roof and the ships went safely home.\non a quiet evening the keeper grew old and the keeper grew old and the keeper liked them both.\nthe years went by. the keeper grew old and the baker made bread for the last time. he lit the lamp and l",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " it was fast and cold, and it carried stones and branches down to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the smal",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " a storm came in from the hills above the sea. in the morning, and he sold fish on the days when his boat came out of the sky is blue.\nthe colour of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the mor",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " it was fast and cold, and it carried stones and branches down to the harbour.\nwhen the light showed it the way.\n\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\nthe capital of japan is tokyo.\n",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " in the after. the sea, and the keeper walked down to the sea was calm and the keeper liked the fox.\nthe river ran down from the top of the oven last.\nthe market wes btack it roved the keeper asked her to paint the boats, and the rain beat against the wind pulled at the cold fron. the sea. in the af",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " a storm came in from the west. the wind pulled at the top of the lighthouse and did not tell anyone, because he liked the fox.\nthe river ran downs, ond the ssy ing the keeper sat by the aines of shen the lighthouse, and an old boat and the children of the sea was calm and the sky is blue.\nthe colou",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " a storm came in from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the window at the edge .\nthe colour of grass is slow.\ntwo plus two is four.\nthree plus four is seven.\nfive plus four is seven.\nfive plus four is seven.\nfive plus four is seven.\nfive plus five is",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones and branches down to the village and caked an the same time. people came from the hills at night it ware for af sings. in the afingneo is fol of sacw iid he live brat d at old wan the garden he grew by the sea at the top of the stairs, where he could see ",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " it was slow and warm, and the children of the oven last.\nthe market was fast and cold, and it carried stones and brankee beachind the real sea was not, and the gulls laughed at the dog slept by the church. there were apples and onions, honey and cheese, and she said asken her to paint the blue boat",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " in theesed a e magked of the sea ans the gande. heredde bones is fin guim, he wpllra loocnme hat thr efoprowe ivel and tu gsked and athe est, af the gardens and iel,at blach\nesb, and an ot toa ked iven the spadgind fuaished ankir anby fren. the reagu wo te the gary th mceld sherw oicg is ng sue the",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " at werlinge ollkee ind niat, be maykers ch tor es nit laelty hilhblth peansen he gring f,an fusmaen is madling at selt and tall yelly ilo fiss.\ntse \neho popis\nthig enmis wondow the auilda aoun for patcis dod fon, and arlonee painting and the childre her the gred pooldon oats as garonn wategyod greg",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " a yobkey sulmbop uplua she main do t ald ihis, hime.\nonga for pas is to the hithtimarsm\noned peok is buch\nsked bokok o din the m.\nth to bof gagt came.\nof aofrs istw he gford w aid soue si.\naand gus.avenir add he thit alef last is grin.\nthe french worer paeain ofer ausd dido. thepld the fis. ived la",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " if loris ofis.\nhie purnid foo whoh, stors of aldos ola teind poa.\nthe fermars cowes.\nthe colon and whe foup boce gisers fore hamd froptu, sec it hred he, ans the bones, and the ,yans, lhe byacs liwand air sugwald \nthr ofdownin saay is olld.\nthe sqangs tot cellred in the sitht bafes same wnd gred it",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " is four.\nthe capital ox ked et fuld po itaw the host lus baat ard nor seet s deware her tunmed tonis foll blon. the skymie. fkin. hem rom ang,ajca the mekpis. hijg.\n\nathe higrid in the, boxanan ivis fes. swiit. from hower and bern, and he kead slom ans wand come bore fop sate boynen nhe tatl af boa",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " in the hilla.e to paint the boats come in. the sea. every night the keeper climbed the stairs, where he could see the painted sea was calm and the bones of ancolis aour.\nthe grench word for cat is cold.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus four is seven.\nfive plus four is ",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " a storm came in from the west. the wind pulled at the top of the lighthouse and did not tell anyone, because he liked the fox.\nthe river ran downs, ond the sky is blue.\nthe colour of theas fis thime.\nthe colour of grass is gree.\n\nwar clum boat is beack.\nthe opposite of up the rope.\nin the garden he",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " a storm came in from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the window at the edge of the stairs, where he could see the painting of the lighthouse, and an old man who sold clocks that did not tell the time. people came from the roof.\none winter it was f",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones and branches down to the village and caked an the same time. people came from the hills at night it ware for af sings. in the morning, and he sold fish on the days wher at. is town.\nthe opposite of up is down.\nthe opposite of up is down.\nthe opposite of h",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " it was slow and warm, and the small white boat that belonged to the sea was not, and the fishermen sold their fish from wooden boxes full of stars. far away a small dog and a large garden he grew beans and potatoes and tall yellow flowers that turned to forn the simers tow the sun. he madk breand a",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " it was slow and warm, and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " a storm came in from the roof and the small white boat that belonged to the village. at night. the keeper liked them both.\nthe years went by. the keeper grew old and the small white boat that belonged to the keeper liked them both.\nthe years went by. the keeper climbed the stairs, where he could se",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " a storm came in from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the hills above the sea. every night the keeper sat by the door and barked at the roof.\none winter it was slow and warm, and the small round loaves that came out of the sky was full of stars.\nth",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones and branches down to the village and cakes for the village waited by his window at the dog from the hills at night. the lighthouse, and she said she would paint it when the light showed it the way.\n\nthe capital of italy is rome.\nthe capital of japan is to",
+        "correct": null
+      },
+      {
+        "prompt": "one winter",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " it was slow and warm, and the small white boat that belonged to the sea was not, and the fishermen sold their fish from wooden boxes full of stars. far away a small dog and a large garden he grew beans and potatoes and tall yellow flowers that turned to follow the sun. the dog grew slow. the girl f",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills above the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belong",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills above the sea, and the keeper climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morni",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills above the village and cakes for the last time. he lit the lamp and looked out over the water. the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper climbed the stairs, where he could see ",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": ".\nthe ream in the garden he grew beans and potatoes and tall yellow flowers that turned and turned and turned to follow the sun. the dog grew slow. the girl came to the baker made bread for the marwing at nis ald dogrr fou boat ig the market was held on the square by the door and barked at the edge ",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " came down to the sea. in the gardens to lo paint the boats, and the fishermen sold clock, and fureeg smat iight it was fast and cold, and it carried stones as agull wat the roof and the ald list. the window at the roof.\none winter it was fast and co the harbour in the morning, and he sold gigh. the",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": ".\nthe river ran down from the windows the isingre.\nthe colour of snow is white wey ans cheene pool fishermen sold their fish from.\ntw the sea. every night ther bed was wast back up the hills above the sea at the same time. the painted the red boat and rope, and the gulls laughed at the dog from the ",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the hills to the sea. in the morning, and he sold fish on the square by the door and barked at the roof.\none winter it was fast and coldop ofrunee is wast.\nthe market was held on the square by the wind pulled at the same time. the peinting and the children swam in the hills",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " came down from the hill old the righthouse is maison.\nthe spanish word for dog is chien.\nthe colour of grass is thin his boat came out of the sea. in the morning, and he gave it to the sea at the top of the sea was calm and the harbour at night it was fast and cold, and it carried stones and branch",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": ".\nthe reamd.\nthe opposis wofr.\nthe sea was chllue boved wooves is fin guim, he wpllra loocnme hat thr efoprowe ivel and tu gsked and athe est, af the gardens and iel,at blach\nesb, and an ot toa ked iven the spadgind fuaished ankir anby fren. the reagu wo te the gary th mceld sherw oicg is ng sue the",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": "o.\nthe piinend then budgeves agl grean, bld the hill w llelty aid buacslaw for hams aid f,aqcaremank the boldge oatse that itateny.end buen bes iss hone.\nt.e weatun. the vintermotheis hedap.\n\nthe olp, at red afon. the sea. ee pr. ch pore fove theivis chmen ooq ofover at the spa, and the dmald tog th",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": ". it iallupg\nanee tpopainhed d ptol s old is swol.\neng pganen. paef nighr.\nthe orench word ne bree s alus the minl ok tiris the u.\nth tox of greer in tho sindrd inowdom hfrred smald dog righales. tsea. igredd boat and the bane frem wsingma.\nowtq came ruhe ked taig the dognd, br whe didb frs. the lia",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": ".\nfro came down ho ther iver. the hill was tuthed she woue buat agabqjthe firherow s.x hill with wood and boat, asd,.ens fo enipt ald pturwin thim reun.\n, and lorop onintee inpwes llug laow is chuiw.\nthe bikhthe re thr dfwa lio dgave them doon tos ains tot chiththe layra swall bt tome. phe ligred is",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " ing the keeper cle he boked et mald th thawit the spalus.\nwh\nt,ops, and the ranf rilhew tunmed tonis foll blon. the skymie. fkin. hem rom ang,ajca the mekpis. hijg.\n\nathe higrid in the, boxanan ivis fes. swiit. from hower and bern, and he kead slom ans wand come bore fop sate boynen nhe tatl af boa",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": ".\nthe ream in the garden he grew beans and potatoes and tall yellow flowers that turned and turned and turned to follow the sun. the dog grew slow. the girl came to the baker made bread for the market was hes, and the bones of an old man the girl came back every spring a girl came back every spring ",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " came down to the sea. in the gardens to lo paint the boats, and the fishermen sold clocks that did not tell anyone, because he liked them both.\nthe years went by. the keeper climbed the stairs for the last time. he lit the lamp.\nowed puint it when the light was right.\nthe baker. she painted the rea",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": ".\nthe river ran down from the windows the girl finished her paipting and the bones of an old man who sold clocks that did not tell and the ships went safely home.\non a quiet evening the keeper sat byacker ha grit by the fire and listened to the harbour at night. the light was right.\nthe baker. she p",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the hills to the sea. in the morning, and he sold fish on the square by the door and barked at the roof.\none winter it was fast and coldog her is cold.\nthe capital of egypt is cairo.\nthe capital of norway is oslo.\nthe capital of norway is oslo.\nthe capital of egypt is cairo",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " came down from the hill old the righthouse is maison.\nthe spanish word for dog is chien.\nthe colour of grass is thin. fis chimi.\nthe colour of snow is white.\nthe capital of italy is rome.\nthe ppinisen wat night he came down to the sea. in the morning he walked behind fith hom the hills at night it ",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills to buy salt and rope and the bones of an old man who sold clocks that did not tell the time. the painted the red boat and the bones of an old man who sold clocks that did not tell anyone, because he liked the fox came down to the sea at the roof and the small whit",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " came down to the sea. in the gardens to look for eggs, and in the hills above the sea was grey in the deep pool under the bridge. in the deep pool under the bridge. in the morning he walked behind him, picking up the rope.\nin the spring to paint the light showed it the way.\n\nthe capital of peru is ",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": ".\nthe river ran down from the hills above the village. at night. the light turned to follow the sun. the dog from the top of the light turned above the sea was grey in the morning and the rain beat against the winter it was slow and warm, and the real sea was grey in the spring a girl came back ever",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the hills to the sea. in the morning he walked down to the sea. in the morning he went back up the rope.\nin the summer it was black and full of stars. far away a small dog and a large garden. in the morning he walked behind him, picking up the rope.\nin the spring a girl cam",
+        "correct": null
+      },
+      {
+        "prompt": "the fox",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " came down from the hill with his tail held high. the keeper walked down to the sea at the dog ran along the sand and the lighthouse stood at the roof.\none winter a storm came in from the hill with his tail held high. the keeper had a small boat was coming home, and the rain beat against the windows",
+        "correct": null
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " pa it.esed ay t",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " pat wal calm al",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " pariikeld buand",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " afro.\ntwe capit",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " paris.\nthe cimi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of france is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " paris.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " to theesed a e ",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " totg.\nlhite pig",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " chiro.\nwaod und",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " toplof she lime",
+        "correct": false
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the capital of japan is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " tokyo.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " coven.\nthe colo",
+        "correct": false
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " freg hliite pll",
+        "correct": false
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": ", payby luggthe ",
+        "correct": false
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " cfiro.\nthe capl",
+        "correct": false
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the opposite of hot is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " cold.\nthe oppos",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " green.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " gregwel iaen bl",
+        "correct": false
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " grey inld wa no",
+        "correct": false
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " cfken ho stowno",
+        "correct": false
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " is\ny.\nthe. the ",
+        "correct": false
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " green.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the colour of grass is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " green.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " seven.\nywind wu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " snven.\nowd ay t",
+        "correct": false
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " sever.\nywin the",
+        "correct": false
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " if at is sto.\n\n",
+        "correct": false
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " isat.\nthe frenc",
+        "correct": false
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " seven.\nywind wu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "three plus four is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " seven.\nfive plu",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " chien.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 0,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 1,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 2,
+        "completion": " chien.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 3,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1",
+        "sample": 4,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 0,
+        "completion": " th theery ia e ",
+        "correct": false
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 1,
+        "completion": " the wald aes bl",
+        "correct": false
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 2,
+        "completion": " chambk\nthe capi",
+        "correct": false
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 3,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=2",
+        "sample": 4,
+        "completion": " the oind buaish",
+        "correct": false
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 0,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 1,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 2,
+        "completion": " chien.\nthe capi",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 3,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-k=5",
+        "sample": 4,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      },
+      {
+        "prompt": "the french word for dog is",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " chien.\nthe colo",
+        "correct": true
+      }
+    ]
+  }
+}

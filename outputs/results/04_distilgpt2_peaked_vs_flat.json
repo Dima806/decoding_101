@@ -1,0 +1,42 @@
+{
+  "name": "04_distilgpt2_peaked_vs_flat",
+  "seed": 42,
+  "data": {
+    "model": "distilgpt2",
+    "vocab_size": 50257,
+    "rows": [
+      {
+        "prompt": "The United States of",
+        "entropy_bits": 0.42570048570632935,
+        "top1_prob": 0.9717199802398682,
+        "top_p_0.9_keeps": 1,
+        "top_k_50_keeps": 50,
+        "mass_in_top_50": 0.987742006778717
+      },
+      {
+        "prompt": "Thank you very",
+        "entropy_bits": 2.108701705932617,
+        "top1_prob": 0.7658408880233765,
+        "top_p_0.9_keeps": 7,
+        "top_k_50_keeps": 50,
+        "mass_in_top_50": 0.9579897522926331
+      },
+      {
+        "prompt": "My favourite thing is",
+        "entropy_bits": 4.860215187072754,
+        "top1_prob": 0.29348793625831604,
+        "top_p_0.9_keeps": 120,
+        "top_k_50_keeps": 50,
+        "mass_in_top_50": 0.8629984855651855
+      },
+      {
+        "prompt": "I like",
+        "entropy_bits": 6.9968438148498535,
+        "top1_prob": 0.2888713777065277,
+        "top_p_0.9_keeps": 1730,
+        "top_k_50_keeps": 50,
+        "mass_in_top_50": 0.7093008756637573
+      }
+    ]
+  }
+}

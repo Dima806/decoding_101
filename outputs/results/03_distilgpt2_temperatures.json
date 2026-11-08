@@ -1,0 +1,31 @@
+{
+  "name": "03_distilgpt2_temperatures",
+  "seed": 42,
+  "data": {
+    "model": "distilgpt2",
+    "prompt": "Once upon a time, in a small village by the sea,",
+    "max_new_tokens": 45,
+    "results": [
+      {
+        "temperature": 0.0,
+        "first_step_entropy_bits": 0.0,
+        "text": " a man, a woman, a man, a man, a man, a man, a man, a man, a man, a man, a man, a man, a man, a man, a man,"
+      },
+      {
+        "temperature": 0.7,
+        "first_step_entropy_bits": 3.1876723766326904,
+        "text": " a fairy could emerge, and in this case, they descended upon the earth and took it to the sea. The Fairy was the most powerful of all, and its power and strength was made manifest in the cauldron of a"
+      },
+      {
+        "temperature": 1.2,
+        "first_step_entropy_bits": 9.983576774597168,
+        "text": " Juno would first poison travellers. Intellectually, failed, Juno cut low once again, we would spend farewells in actuars inside ACM Station and loneliness in several bedroom diningrooms and libraries. We would find beauty"
+      },
+      {
+        "temperature": 2.5,
+        "first_step_entropy_bits": 14.617198944091797,
+        "text": " Juno fairy foyer furnace supplies closet dependenciesMoreover abound Zurichdiocc La Gear Glad Inspective PublishingHot bacon outbreak Yamato fil).\"Rev989 It AC 630 Thomas Colomblees Sal Meielve Dal Griffin Park Alexandria cost cambpponet"
+      }
+    ]
+  }
+}

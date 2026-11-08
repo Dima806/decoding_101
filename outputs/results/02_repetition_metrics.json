@@ -1,0 +1,106 @@
+{
+  "name": "02_repetition_metrics",
+  "seed": 42,
+  "data": [
+    {
+      "prompt": "the keeper",
+      "decoder": "greedy",
+      "n_words": 61.0,
+      "distinct_1": 0.4098360655737705,
+      "distinct_2": 0.5166666666666667,
+      "distinct_3": 0.5254237288135594,
+      "longest_repeat": 30.0,
+      "text": " climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morn"
+    },
+    {
+      "prompt": "the keeper",
+      "decoder": "T=1, top-p=0.8",
+      "n_words": 60.0,
+      "distinct_1": 0.6,
+      "distinct_2": 0.847457627118644,
+      "distinct_3": 0.9137931034482759,
+      "longest_repeat": 6.0,
+      "text": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper grew old and the gulls laughed at the roof and the sky is blue.\nthe colour of the stairs, where he could see the painting and the gulls, an"
+    },
+    {
+      "prompt": "in the morning",
+      "decoder": "greedy",
+      "n_words": 59.0,
+      "distinct_1": 0.2033898305084746,
+      "distinct_2": 0.2413793103448276,
+      "distinct_3": 0.24561403508771928,
+      "longest_repeat": 45.0,
+      "text": " and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belon"
+    },
+    {
+      "prompt": "in the morning",
+      "decoder": "T=1, top-p=0.8",
+      "n_words": 59.0,
+      "distinct_1": 0.6440677966101694,
+      "distinct_2": 0.9137931034482759,
+      "distinct_3": 0.9824561403508771,
+      "longest_repeat": 3.0,
+      "text": " and the keeper sat by the church. there were apples and onions, honey and cheese, and she said she would paint it when the girl came to the harbour to watch the boats. she painting of the lighthouse stood at the dog grew slow. the girl finished her painting of the sea at the roof and the small whit"
+    },
+    {
+      "prompt": "the sea was",
+      "decoder": "greedy",
+      "n_words": 59.0,
+      "distinct_1": 0.2033898305084746,
+      "distinct_2": 0.2413793103448276,
+      "distinct_3": 0.24561403508771928,
+      "longest_repeat": 45.0,
+      "text": " calm and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that "
+    },
+    {
+      "prompt": "the sea was",
+      "decoder": "T=1, top-p=0.8",
+      "n_words": 61.0,
+      "distinct_1": 0.639344262295082,
+      "distinct_2": 0.9333333333333333,
+      "distinct_3": 1.0,
+      "longest_repeat": 2.0,
+      "text": " calm and the red boat and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to"
+    },
+    {
+      "prompt": "one winter",
+      "decoder": "greedy",
+      "n_words": 60.0,
+      "distinct_1": 0.3333333333333333,
+      "distinct_2": 0.4406779661016949,
+      "distinct_3": 0.4482758620689655,
+      "longest_repeat": 34.0,
+      "text": " it was fast and cold, and it carried stones and branches down to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the smal"
+    },
+    {
+      "prompt": "one winter",
+      "decoder": "T=1, top-p=0.8",
+      "n_words": 61.0,
+      "distinct_1": 0.639344262295082,
+      "distinct_2": 0.9333333333333333,
+      "distinct_3": 1.0,
+      "longest_repeat": 2.0,
+      "text": " it was slow and warm, and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to"
+    },
+    {
+      "prompt": "the fox",
+      "decoder": "greedy",
+      "n_words": 59.0,
+      "distinct_1": 0.3050847457627119,
+      "distinct_2": 0.3793103448275862,
+      "distinct_3": 0.38596491228070173,
+      "longest_repeat": 37.0,
+      "text": ".\nthe river ran down from the hills above the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belong"
+    },
+    {
+      "prompt": "the fox",
+      "decoder": "T=1, top-p=0.8",
+      "n_words": 65.0,
+      "distinct_1": 0.5846153846153846,
+      "distinct_2": 0.78125,
+      "distinct_3": 0.8095238095238095,
+      "longest_repeat": 14.0,
+      "text": ".\nthe river ran down from the hills to buy salt and rope and the bones of an old man who sold clocks that did not tell the time. the painted the red boat and the bones of an old man who sold clocks that did not tell anyone, because he liked the fox came down to the sea at the roof and the small whit"
+    }
+  ]
+}

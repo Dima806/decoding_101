@@ -1,0 +1,37 @@
+{
+  "name": "06_distilgpt2_recommended",
+  "seed": 42,
+  "data": {
+    "model": "distilgpt2",
+    "results": [
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "greedy",
+        "completion": " Thursday, Friday,",
+        "correct": true
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "greedy",
+        "completion": " April, May,",
+        "correct": true
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=0.8, top-p=0.9",
+        "completion": " solid and the water was nice.\n\nWhen I approached the boat, I felt a sense of calm. The passengers were off to a different boat. The safety of the boat was made more important.\nSome of the passengers were simply in their",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=0.8, top-p=0.9, rep=1.2",
+        "completion": " I would first work with my mother and sister. My father was always working hard for me to help her but if they found it difficult enough not to take care of you or your family members who were there when we left our house without paying taxes on",
+        "correct": null
+      }
+    ]
+  }
+}

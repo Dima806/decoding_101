@@ -1,0 +1,34 @@
+{
+  "name": "04_tail_mass",
+  "seed": 42,
+  "data": {
+    "prompt": "the sea was ",
+    "by_temperature": [
+      {
+        "temperature": 0.5,
+        "mass_outside_top_3": 0.0003999471664428711,
+        "entropy_bits": 1.2180979251861572
+      },
+      {
+        "temperature": 1.0,
+        "mass_outside_top_3": 0.03667402267456055,
+        "entropy_bits": 1.7901020050048828
+      },
+      {
+        "temperature": 1.5,
+        "mass_outside_top_3": 0.16241812705993652,
+        "entropy_bits": 2.5815019607543945
+      },
+      {
+        "temperature": 2.0,
+        "mass_outside_top_3": 0.3131365180015564,
+        "entropy_bits": 3.28592586517334
+      },
+      {
+        "temperature": 3.0,
+        "mass_outside_top_3": 0.5282889008522034,
+        "entropy_bits": 4.07240629196167
+      }
+    ]
+  }
+}

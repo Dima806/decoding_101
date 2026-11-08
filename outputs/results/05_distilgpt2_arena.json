@@ -1,0 +1,421 @@
+{
+  "name": "05_distilgpt2_arena",
+  "seed": 42,
+  "data": {
+    "model": "distilgpt2",
+    "n_samples": 3,
+    "max_new_tokens": 40,
+    "summary": [
+      {
+        "decoder": "greedy",
+        "single_accuracy": 1.0,
+        "open_distinct_2": 0.1844256312947015,
+        "open_diversity": 0.06147521043156717
+      },
+      {
+        "decoder": "beam (B=4)",
+        "single_accuracy": 1.0,
+        "open_distinct_2": 0.71875,
+        "open_diversity": 0.23958333333333334
+      },
+      {
+        "decoder": "T=1, top-p=0.9",
+        "single_accuracy": 0.4444444444444444,
+        "open_distinct_2": 0.9867238562091504,
+        "open_diversity": 0.98
+      },
+      {
+        "decoder": "T=1.5",
+        "single_accuracy": 0.0,
+        "open_distinct_2": 1.0,
+        "open_diversity": 1.0
+      }
+    ],
+    "samples": [
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " rising, and the sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " rising, and the sea was rising, and the sea was rising, and the sea was rising, and the sea was rising, and the sea was rising, and the sea was rising, and the",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 0,
+        "completion": " solid and cloudy and caused massive flooding.\n\n\n\nWhen the low wind blew out, people rushed into their homes.\nSoon after the storm began, some residents resorted to flying blankets and heat",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 1,
+        "completion": " racing in, we just checked out, his hair was full.\n\nI asked him about a bit of the plane wreckage. He said he was walking around for a while and even had to keep",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 2,
+        "completion": " going downhill, and an unusual sight came over a high path and through it, into the midst of a raging ocean as well. There was a faraway pebble that shuddered at the",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " solid and empty a furnace at 92 miles inland, Zurich, Vice La Rue Gladiolano Publishing happens. Its fuel levels pumped off tightly inside AC power plants and its Sal Meielvedraters Park Alexandria",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " racing in freshly planted spandex, his hair Toodry or light drawers branding tomato under his sunfiction outfitification. Silver• LGBT individuals fold long floating panels Only Quincy woman detached and",
+        "correct": null
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " greater than we expected in surrounding Visika immediately after high seas roared 400 miles high into these significantly biometric dissolved waters surrounding Vietnam today that frequented far demagoguish timber quarries or JEXP agency",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " a man, a woman, a man, a man, a man, a man, a man, a man, a man, a man, a man, a man, a man, a",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " there was a man who had been waiting for a day.\n\n\n※\n※\n※\n※\n※\n※\n※\n※\n�",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 0,
+        "completion": " I would first work with Norvalon, who would pass by the low wind and would place my lantern in his hand. I looked into the village's skies, and several others. Without seeing Nor",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 1,
+        "completion": " the dragon’s fearsome axe, his hair, his black scales and his brand new sword, stands precariously upon its head.\n\n\nThe demon looked in the darkness.\nThe",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 2,
+        "completion": " a tree appears within an unusual sight. The thing, perhaps, was surprised, because these ancient caves have not remained as rocky as that of the faraway pebbles that seem to be growing at",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " Juno bound objects to travellers at Intoreo, Zurich, Vice La Lines and Infal Publishing Co. farewell Yamato filletteur It AC 630 Thomas Colombas Sal Ruselve Dalou CR Alexandria",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " Sagol freshly planted spany red moss his hair Toodry or light drawresh ANOTHER tomato under his sunfiction about hills. Silver• LGBT individuals fold long hairsAs textured and womanple and",
+        "correct": null
+      },
+      {
+        "prompt": "Once upon a time, in a small village by the sea,",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " government investigated 40 citizen commit murders.... LINECK640 high path length 400 altitude high frequency (their research alerts dissolved) rampage 6 bona fide frequents 550 demagogues timber quarried 8 repeat republic agency",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " not to be confused with the meaning of life.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 0,
+        "completion": " not bound by a rule; in actual life, it is bound by something else and would not be necessarily an object of matter. Once inside the dog's mind, you can say that there is a",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 1,
+        "completion": " that in keeping with what it is, we do it. For instance, living, sleeping, and living today, our happiness is so wonderful and so wonderful. Once our capacity for enjoying life comes to",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 2,
+        "completion": " greater than we think in the world. The world does not accept death from its core (and it knows it) as a matter of human good (and it will know that it is true) when",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " materialistic,\" Walsh guessed. Intellect will abound: science is crucial: once again talking we can understand fiercely for us. For eighteenth- ACM Thomas Colombat Salierselve Dalmatian Alexandria",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " hazier freshly planted onto ash particles, his hair Toodry or light drawresh ANOTHER dreaming depossibility today indeed ! : Laurie says• LGBT individuals fold skin squarelyAs Cath Industrial and woman order and",
+        "correct": null
+      },
+      {
+        "prompt": "The meaning of life is",
+        "kind": "open",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " greater because we exist in forms.... LINIS WARCORN length 400 Deal Winning Sparrow (1934: 22) Battle of Iranian House Print Relative render demoud Woolsey Pollline Family Reladed House",
+        "correct": null
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " Thursday, Friday,",
+        "correct": true
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " Thursday, Friday,",
+        "correct": true
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 0,
+        "completion": " Friday and Saturday,",
+        "correct": false
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 1,
+        "completion": " Friday, Saturday,",
+        "correct": false
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 2,
+        "completion": " Thursday, Friday,",
+        "correct": true
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " Friday and Sunday 9",
+        "correct": false
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " Friday , PTo",
+        "correct": false
+      },
+      {
+        "prompt": "Monday, Tuesday, Wednesday,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " 5 AM GAINS",
+        "correct": false
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " April, May,",
+        "correct": true
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " April, May,",
+        "correct": true
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 0,
+        "completion": " April, May,",
+        "correct": true
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 1,
+        "completion": " April, May,",
+        "correct": true
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 2,
+        "completion": " April, May,",
+        "correct": true
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " Juno bound worldwide to",
+        "correct": false
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " 1885 PT,",
+        "correct": false
+      },
+      {
+        "prompt": "January, February, March,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " June, November.)",
+        "correct": false
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " five, six,",
+        "correct": true
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "beam (B=4)",
+        "sample": 0,
+        "completion": " five, six,",
+        "correct": true
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 0,
+        "completion": " three, four,",
+        "correct": false
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 1,
+        "completion": " four, five,",
+        "correct": false
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "T=1, top-p=0.9",
+        "sample": 2,
+        "completion": " 5-inch.)",
+        "correct": false
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " solid fairy foyer",
+        "correct": false
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " 18 Jessica Wilson,",
+        "correct": false
+      },
+      {
+        "prompt": "one, two, three, four,",
+        "kind": "single",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " 5-rug.)",
+        "correct": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "name": "02_repetition_by_decoder",
+  "seed": 42,
+  "data": {
+    "n_samples": 5,
+    "max_new_tokens": 300,
+    "summary": [
+      {
+        "decoder": "greedy",
+        "open_distinct_2": 0.36388271965712066,
+        "open_longest_repeat": 38.2,
+        "open_diversity": 0.07277654393142412
+      },
+      {
+        "decoder": "greedy, rep=1.3",
+        "open_distinct_2": 0.6994640927594526,
+        "open_longest_repeat": 16.2,
+        "open_diversity": 0.13989281855189054
+      },
+      {
+        "decoder": "T=1, top-p=0.8",
+        "open_distinct_2": 0.8605428770585677,
+        "open_longest_repeat": 5.64,
+        "open_diversity": 0.6580626174811557
+      }
+    ],
+    "samples": [
+      {
+        "prompt": "the keeper",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morn"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " climbed the stairs, where he could see the painted the real sea was grey in the morning and the fox.\nthe river ran down from the hills above the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning an"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper grew old and the gulls laughed at the roof and the sky is blue.\nthe colour of the stairs, where he could see the painting and the gulls, an"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " sat by the church. there were apples and onions, honey and cheese, and an old man who sold clocks that did not tell anyone, because he liked them both.\nthe years went by. the keeper walked down to the sea. in the summer it was black and full of ice.\na fox lived in the morning and the sky was full o"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none winter a storm came in from the hills at night. the keeper sat by the fire and listened to the harbour.\nwhen the lighthouse, and she said she would paint it when the lighthouse and did not tell the time. people came from the hills at night it was black an"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " climbed the stairs and lit the lamp and looked out over the water. the sea at the same time. people came from the top of the lighthouse she gave them the small round loaves that came out of the light showed it the way.\n\nthe capital of italy is rome.\nthe colour of grass is green.\nthe french word for"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " sat by the door and barked at the dog grew slow. the girl finished her painting and the bones of an old boat. the dog grew slow. the girl came back every spring to paint the boats, and the keeper climbed the stairs, where he could see the painted the harbour to watch the boats. she painted the harb"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belon"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": ", and he sold fish on the days when his boat came out of the village. at night it was fast and cold, and it carried stones and branches down to the keeper climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged t"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " and the keeper sat by the church. there were apples and onions, honey and cheese, and she said she would paint it when the girl came to the harbour to watch the boats. she painting of the lighthouse stood at the dog grew slow. the girl finished her painting of the sea at the roof and the small whit"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " and green in the morning and green in the spring to paint the boats. she painted sea was not, and the keeper liked the fox.\nthe river ran down from the roof.\none winter a storm came in from the hills at night. the light turned above the sea. every night the keeper climbed the stairs for the last ti"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " and the small white boat that belonged to the harbour at night. the light turned to follow the sun. the dog from the top of the light turned above the sea was grey in the morning and the rain beat against the winter it was slow and warm, and the real sea was grey in the spring a girl came back ever"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " and the light turned to follow the sun. he made bread for the market was held on the days when his boat came home full. the children swam in the hills to buy salt and rope and the keeper saw him from the roof.\none winter a storm came in from the hills to the sea was grey in the morning he walked do"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " and the sky is blue.\nthe colour of coal is black.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus five is ten.\nsix plus three is nine.\nthe french word for house is maison.\nthe spanish word for house is maison.\nthe spanish word for water is agua.\nthe german word for house is maison.\nt"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " calm and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that "
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " calm and the bones of an old man who sold clocks that did not tell the time. people came from the hills above the sea, and the gulls, and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that bel"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " calm and the red boat and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " grey in the morning and green in the morning and the blue boat and the rain beat against the wind pulled at the roof and the bones of an old boat. the dog ran along the sand and the keeper grew old and the baker. she painted the harbour to watch the boats come in. the sea. in the summer it was fast"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " calm and the bones of an old boat. the dog ran along the sand and the fox came down from the hills at night. the keeper climbed the stairs, where he could see the painted sea was calm and the keeper saw him from the hills at night he came down from the hills to buy salt and rope, and the small whit"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " calm and the gulls laughed at the dog grew slow. the girl came back every spring to paint the light turned to follow the sun. he made bread, and the sky is blue.\nthe colour of snow is white.\nthe colour of snow is white.\nthe colour of snow is white.\nthe capital of italy is rome.\nthe colour of the st"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " calm and the keeper liked the fox.\nthe river ran down from the roof and the ships went safely home.\non a quiet evening the keeper grew old and the keeper grew old and the keeper liked them both.\nthe years went by. the keeper grew old and the baker made bread for the last time. he lit the lamp and l"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": " it was fast and cold, and it carried stones and branches down to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the smal"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": " a storm came in from the hills above the sea. in the morning, and he sold fish on the days when his boat came out of the sky is blue.\nthe colour of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the mor"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " it was slow and warm, and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " a storm came in from the roof and the small white boat that belonged to the village. at night. the keeper liked them both.\nthe years went by. the keeper grew old and the small white boat that belonged to the keeper liked them both.\nthe years went by. the keeper climbed the stairs, where he could se"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " a storm came in from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the hills above the sea. every night the keeper sat by the door and barked at the roof.\none winter it was slow and warm, and the small round loaves that came out of the sky was full of stars.\nth"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones and branches down to the village and cakes for the village waited by his window at the dog from the hills at night. the lighthouse, and she said she would paint it when the light showed it the way.\n\nthe capital of italy is rome.\nthe capital of japan is to"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " it was slow and warm, and the small white boat that belonged to the sea was not, and the fishermen sold their fish from wooden boxes full of stars. far away a small dog and a large garden he grew beans and potatoes and tall yellow flowers that turned to follow the sun. the dog grew slow. the girl f"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "greedy",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills above the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belong"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "greedy, rep=1.3",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills above the sea, and the keeper climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morni"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills to buy salt and rope and the bones of an old man who sold clocks that did not tell the time. the painted the red boat and the bones of an old man who sold clocks that did not tell anyone, because he liked the fox came down to the sea at the roof and the small whit"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " came down to the sea. in the gardens to look for eggs, and in the hills above the sea was grey in the deep pool under the bridge. in the deep pool under the bridge. in the morning he walked behind him, picking up the rope.\nin the spring to paint the light showed it the way.\n\nthe capital of peru is "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": ".\nthe river ran down from the hills above the village. at night. the light turned to follow the sun. the dog from the top of the light turned above the sea was grey in the morning and the rain beat against the winter it was slow and warm, and the real sea was grey in the spring a girl came back ever"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the hills to the sea. in the morning he walked down to the sea. in the morning he went back up the rope.\nin the summer it was black and full of stars. far away a small dog and a large garden. in the morning he walked behind him, picking up the rope.\nin the spring a girl cam"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " came down from the hill with his tail held high. the keeper walked down to the sea at the dog ran along the sand and the lighthouse stood at the roof.\none winter a storm came in from the hill with his tail held high. the keeper had a small boat was coming home, and the rain beat against the windows"
+      }
+    ]
+  }
+}

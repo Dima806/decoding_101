@@ -1,0 +1,52 @@
+{
+  "name": "01_char_model",
+  "seed": 42,
+  "data": {
+    "corpus_characters": 7663,
+    "vocab_size": 29,
+    "alphabet": [
+      "↵",
+      "␣",
+      ",",
+      ".",
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "q",
+      "r",
+      "s",
+      "t",
+      "u",
+      "v",
+      "w",
+      "x",
+      "y"
+    ],
+    "context_characters": 8,
+    "parameters": 57557,
+    "train_steps": 1500,
+    "loss_first_step_nats": 3.40690279006958,
+    "loss_last_50_mean_nats": 0.11284742139279842,
+    "settings": {
+      "context": 8,
+      "embed_dim": 24,
+      "hidden_dim": 256,
+      "train_steps": 1500,
+      "batch_size": 256,
+      "learning_rate": 0.003
+    }
+  }
+}

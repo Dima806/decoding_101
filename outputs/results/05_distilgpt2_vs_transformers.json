@@ -1,0 +1,35 @@
+{
+  "name": "05_distilgpt2_vs_transformers",
+  "seed": 42,
+  "data": {
+    "model": "distilgpt2",
+    "prompt": "Monday, Tuesday, Wednesday,",
+    "max_new_tokens": 15,
+    "checks": [
+      {
+        "decoder": "greedy",
+        "tokens_ours": 15,
+        "tokens_transformers": 15,
+        "identical": true
+      },
+      {
+        "decoder": "greedy, rep=1.3",
+        "tokens_ours": 15,
+        "tokens_transformers": 15,
+        "identical": true
+      },
+      {
+        "decoder": "beam (B=2)",
+        "tokens_ours": 15,
+        "tokens_transformers": 15,
+        "identical": true
+      },
+      {
+        "decoder": "beam (B=4)",
+        "tokens_ours": 15,
+        "tokens_transformers": 15,
+        "identical": true
+      }
+    ]
+  }
+}

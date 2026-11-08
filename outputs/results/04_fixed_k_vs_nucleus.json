@@ -1,0 +1,244 @@
+{
+  "name": "04_fixed_k_vs_nucleus",
+  "seed": 42,
+  "data": {
+    "entropy_bits": {
+      "peaked ('the capital of fra')": 0.2298097312450409,
+      "medium ('the sea was ')": 1.7901020050048828,
+      "flat ('and the ')": 3.208163261413574
+    },
+    "kept": [
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-k",
+        "setting": 1.0,
+        "kept": 1,
+        "mass_kept": 0.9774394035339355
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-k",
+        "setting": 3.0,
+        "kept": 3,
+        "mass_kept": 0.9866216778755188
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-k",
+        "setting": 5.0,
+        "kept": 5,
+        "mass_kept": 0.99219810962677
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-k",
+        "setting": 10.0,
+        "kept": 10,
+        "mass_kept": 0.9981600642204285
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-k",
+        "setting": 20.0,
+        "kept": 20,
+        "mass_kept": 0.9998756051063538
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-p",
+        "setting": 0.5,
+        "kept": 1,
+        "mass_kept": 0.9774394035339355
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-p",
+        "setting": 0.7,
+        "kept": 1,
+        "mass_kept": 0.9774394035339355
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-p",
+        "setting": 0.8,
+        "kept": 1,
+        "mass_kept": 0.9774394035339355
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-p",
+        "setting": 0.9,
+        "kept": 1,
+        "mass_kept": 0.9774394035339355
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-p",
+        "setting": 0.95,
+        "kept": 1,
+        "mass_kept": 0.9774394035339355
+      },
+      {
+        "distribution": "peaked ('the capital of fra')",
+        "method": "top-p",
+        "setting": 0.99,
+        "kept": 5,
+        "mass_kept": 0.99219810962677
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-k",
+        "setting": 1.0,
+        "kept": 1,
+        "mass_kept": 0.4896309971809387
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-k",
+        "setting": 3.0,
+        "kept": 3,
+        "mass_kept": 0.9633259773254395
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-k",
+        "setting": 5.0,
+        "kept": 5,
+        "mass_kept": 0.9760123491287231
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-k",
+        "setting": 10.0,
+        "kept": 10,
+        "mass_kept": 0.9908221960067749
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-k",
+        "setting": 20.0,
+        "kept": 20,
+        "mass_kept": 0.9995378255844116
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-p",
+        "setting": 0.5,
+        "kept": 2,
+        "mass_kept": 0.7604549527168274
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-p",
+        "setting": 0.7,
+        "kept": 2,
+        "mass_kept": 0.7604549527168274
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-p",
+        "setting": 0.8,
+        "kept": 3,
+        "mass_kept": 0.9633259773254395
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-p",
+        "setting": 0.9,
+        "kept": 3,
+        "mass_kept": 0.9633259773254395
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-p",
+        "setting": 0.95,
+        "kept": 3,
+        "mass_kept": 0.9633259773254395
+      },
+      {
+        "distribution": "medium ('the sea was ')",
+        "method": "top-p",
+        "setting": 0.99,
+        "kept": 10,
+        "mass_kept": 0.9908221960067749
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-k",
+        "setting": 1.0,
+        "kept": 1,
+        "mass_kept": 0.20351716876029968
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-k",
+        "setting": 3.0,
+        "kept": 3,
+        "mass_kept": 0.5020835399627686
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-k",
+        "setting": 5.0,
+        "kept": 5,
+        "mass_kept": 0.7120105028152466
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-k",
+        "setting": 10.0,
+        "kept": 10,
+        "mass_kept": 0.9922474026679993
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-k",
+        "setting": 20.0,
+        "kept": 20,
+        "mass_kept": 0.9998421669006348
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-p",
+        "setting": 0.5,
+        "kept": 3,
+        "mass_kept": 0.5020835399627686
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-p",
+        "setting": 0.7,
+        "kept": 5,
+        "mass_kept": 0.7120105028152466
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-p",
+        "setting": 0.8,
+        "kept": 7,
+        "mass_kept": 0.8329043388366699
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-p",
+        "setting": 0.9,
+        "kept": 9,
+        "mass_kept": 0.9430792331695557
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-p",
+        "setting": 0.95,
+        "kept": 10,
+        "mass_kept": 0.9922474026679993
+      },
+      {
+        "distribution": "flat ('and the ')",
+        "method": "top-p",
+        "setting": 0.99,
+        "kept": 10,
+        "mass_kept": 0.9922474026679993
+      }
+    ]
+  }
+}

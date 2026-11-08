@@ -1,0 +1,8 @@
+{
+  "name": "03_limits",
+  "seed": 42,
+  "data": {
+    "T=1e-4 generation equals greedy (200 chars)": true,
+    "T=1e6 max |p - 1/V|": 2.3096799850463867e-07
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "name": "03_entropy_vs_temperature",
+  "seed": 42,
+  "data": {
+    "prompt": "the sea was ",
+    "vocab_size": 29,
+    "usable_band": [
+      0.25,
+      1.0
+    ],
+    "sweep": [
+      {
+        "temperature": 0.0,
+        "entropy_bits": 0.0,
+        "effective_choices": 1.0,
+        "top1_prob": 1.0
+      },
+      {
+        "temperature": 0.1,
+        "entropy_bits": 0.028800416737794876,
+        "effective_choices": 1.0201635360717773,
+        "top1_prob": 0.9971785545349121
+      },
+      {
+        "temperature": 0.25,
+        "entropy_bits": 0.5856894254684448,
+        "effective_choices": 1.500756025314331,
+        "top1_prob": 0.8904156684875488
+      },
+      {
+        "temperature": 0.5,
+        "entropy_bits": 1.2180979251861572,
+        "effective_choices": 2.3263978958129883,
+        "top1_prob": 0.6764964461326599
+      },
+      {
+        "temperature": 0.75,
+        "entropy_bits": 1.4901472330093384,
+        "effective_choices": 2.809176445007324,
+        "top1_prob": 0.5627283453941345
+      },
+      {
+        "temperature": 1.0,
+        "entropy_bits": 1.7901020050048828,
+        "effective_choices": 3.4583935737609863,
+        "top1_prob": 0.4896309971809387
+      },
+      {
+        "temperature": 1.25,
+        "entropy_bits": 2.1726648807525635,
+        "effective_choices": 4.508554458618164,
+        "top1_prob": 0.42944470047950745
+      },
+      {
+        "temperature": 1.5,
+        "entropy_bits": 2.5815019607543945,
+        "effective_choices": 5.985625743865967,
+        "top1_prob": 0.3756646513938904
+      },
+      {
+        "temperature": 2.0,
+        "entropy_bits": 3.28592586517334,
+        "effective_choices": 9.7535400390625,
+        "top1_prob": 0.28770264983177185
+      },
+      {
+        "temperature": 3.0,
+        "entropy_bits": 4.07240629196167,
+        "effective_choices": 16.823505401611328,
+        "top1_prob": 0.18380466103553772
+      },
+      {
+        "temperature": 5.0,
+        "entropy_bits": 4.568239688873291,
+        "effective_choices": 23.723411560058594,
+        "top1_prob": 0.10748767107725143
+      },
+      {
+        "temperature": 7.5,
+        "entropy_bits": 4.729753494262695,
+        "effective_choices": 26.533689498901367,
+        "top1_prob": 0.07693551480770111
+      },
+      {
+        "temperature": 10.0,
+        "entropy_bits": 4.786184310913086,
+        "effective_choices": 27.592117309570312,
+        "top1_prob": 0.06400551646947861
+      },
+      {
+        "temperature": 20.0,
+        "entropy_bits": 4.840192794799805,
+        "effective_choices": 28.644628524780273,
+        "top1_prob": 0.04756523668766022
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "01_pickers_and_generations",
+  "seed": 42,
+  "data": {
+    "prompt": "the keeper ",
+    "one_step_picks": {
+      "greedy": "c",
+      "sample, seed 0": "s",
+      "sample, seed 1": "l",
+      "sample, seed 2": "c"
+    },
+    "max_new_tokens": 160,
+    "generations": {
+      "greedy": "climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in t",
+      "T=1, top-p=0.8": "grew old and the light showed it the way.\n\nthe capital of egypt is cairo.\nthe capital of norway is oslo.\nthe capital of egypt is cairo.\nthe capital of spain is "
+    }
+  }
+}

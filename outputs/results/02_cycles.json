@@ -1,0 +1,39 @@
+{
+  "name": "02_cycles",
+  "seed": 42,
+  "data": {
+    "context_chars": 8,
+    "cycles": [
+      {
+        "prompt": "the keeper",
+        "periodic_from_char": 91,
+        "period_chars": 66,
+        "loop": " the sea. in the morning and the small white boat that belonged to"
+      },
+      {
+        "prompt": "in the morning",
+        "periodic_from_char": 0,
+        "period_chars": 66,
+        "loop": "in the morning and the small white boat that belonged to the sea. "
+      },
+      {
+        "prompt": "the sea was",
+        "periodic_from_char": 16,
+        "period_chars": 66,
+        "loop": " and the small white boat that belonged to the sea. in the morning"
+      },
+      {
+        "prompt": "one winter",
+        "periodic_from_char": 72,
+        "period_chars": 66,
+        "loop": " to the sea. in the morning and the small white boat that belonged"
+      },
+      {
+        "prompt": "the fox",
+        "periodic_from_char": 48,
+        "period_chars": 66,
+        "loop": " the sea. in the morning and the small white boat that belonged to"
+      }
+    ]
+  }
+}

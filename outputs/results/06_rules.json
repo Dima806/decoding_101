@@ -1,0 +1,16 @@
+{
+  "name": "06_rules",
+  "seed": 42,
+  "data": {
+    "single": {
+      "use": "greedy or beam search, temperature 0",
+      "why": "There is one right answer and it is usually the most probable continuation. Sampling only adds ways to be wrong; beam search helps when the best answer needs a less likely first token.",
+      "examples": "translation, extraction, classification, structured output, arithmetic"
+    },
+    "open": {
+      "use": "nucleus (top-p 0.8-0.95) with temperature 0.7-1.0; add a repetition penalty if loops appear",
+      "why": "You want variety without nonsense. Temperature controls how adventurous the sampler is; top-p cuts the long tail of absurd tokens and adapts to how sure the model is. Greedy and beam loop or go bland here.",
+      "examples": "stories, brainstorming, dialogue, marketing copy"
+    }
+  }
+}

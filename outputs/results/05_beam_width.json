@@ -1,0 +1,235 @@
+{
+  "name": "05_beam_width",
+  "seed": 42,
+  "data": {
+    "max_new_tokens": 300,
+    "by_width": [
+      {
+        "beam_width": 1,
+        "mean_logprob": -0.12945580972788046,
+        "distinct_2": 0.36388271965712055,
+        "likelihood": 0.87857341195658
+      },
+      {
+        "beam_width": 2,
+        "mean_logprob": -0.0767143372764185,
+        "distinct_2": 0.9563276836158193,
+        "likelihood": 0.9261543836051942
+      },
+      {
+        "beam_width": 4,
+        "mean_logprob": -0.07129387686787898,
+        "distinct_2": 0.6124621899576528,
+        "likelihood": 0.9311881972424526
+      },
+      {
+        "beam_width": 8,
+        "mean_logprob": -0.06653371986066546,
+        "distinct_2": 0.7646405610753945,
+        "likelihood": 0.9356313659651102
+      }
+    ],
+    "by_prompt": [
+      {
+        "beam_width": 1,
+        "prompt": "the keeper",
+        "mean_logprob": -0.12489189381714065,
+        "n_words": 61.0,
+        "distinct_1": 0.4098360655737705,
+        "distinct_2": 0.5166666666666667,
+        "distinct_3": 0.5254237288135594,
+        "longest_repeat": 30.0
+      },
+      {
+        "beam_width": 1,
+        "prompt": "in the morning",
+        "mean_logprob": -0.13748589897911037,
+        "n_words": 59.0,
+        "distinct_1": 0.2033898305084746,
+        "distinct_2": 0.2413793103448276,
+        "distinct_3": 0.24561403508771928,
+        "longest_repeat": 45.0
+      },
+      {
+        "beam_width": 1,
+        "prompt": "the sea was",
+        "mean_logprob": -0.13466822446301194,
+        "n_words": 59.0,
+        "distinct_1": 0.2033898305084746,
+        "distinct_2": 0.2413793103448276,
+        "distinct_3": 0.24561403508771928,
+        "longest_repeat": 45.0
+      },
+      {
+        "beam_width": 1,
+        "prompt": "one winter",
+        "mean_logprob": -0.12305681571847041,
+        "n_words": 60.0,
+        "distinct_1": 0.3333333333333333,
+        "distinct_2": 0.4406779661016949,
+        "distinct_3": 0.4482758620689655,
+        "longest_repeat": 34.0
+      },
+      {
+        "beam_width": 1,
+        "prompt": "the fox",
+        "mean_logprob": -0.12717621566166903,
+        "n_words": 59.0,
+        "distinct_1": 0.3050847457627119,
+        "distinct_2": 0.3793103448275862,
+        "distinct_3": 0.38596491228070173,
+        "longest_repeat": 37.0
+      },
+      {
+        "beam_width": 2,
+        "prompt": "the keeper",
+        "mean_logprob": -0.08525530367866092,
+        "n_words": 61.0,
+        "distinct_1": 0.639344262295082,
+        "distinct_2": 0.9,
+        "distinct_3": 0.9491525423728814,
+        "longest_repeat": 4.0
+      },
+      {
+        "beam_width": 2,
+        "prompt": "in the morning",
+        "mean_logprob": -0.07931267452276643,
+        "n_words": 61.0,
+        "distinct_1": 0.7377049180327869,
+        "distinct_2": 0.9833333333333333,
+        "distinct_3": 1.0,
+        "longest_repeat": 2.0
+      },
+      {
+        "beam_width": 2,
+        "prompt": "the sea was",
+        "mean_logprob": -0.07553888450242842,
+        "n_words": 60.0,
+        "distinct_1": 0.7166666666666667,
+        "distinct_2": 0.9491525423728814,
+        "distinct_3": 0.9827586206896551,
+        "longest_repeat": 3.0
+      },
+      {
+        "beam_width": 2,
+        "prompt": "one winter",
+        "mean_logprob": -0.07432401367531838,
+        "n_words": 61.0,
+        "distinct_1": 0.7377049180327869,
+        "distinct_2": 1.0,
+        "distinct_3": 1.0,
+        "longest_repeat": 1.0
+      },
+      {
+        "beam_width": 2,
+        "prompt": "the fox",
+        "mean_logprob": -0.06914081000291844,
+        "n_words": 60.0,
+        "distinct_1": 0.65,
+        "distinct_2": 0.9491525423728814,
+        "distinct_3": 0.9827586206896551,
+        "longest_repeat": 3.0
+      },
+      {
+        "beam_width": 4,
+        "prompt": "the keeper",
+        "mean_logprob": -0.0746760727703319,
+        "n_words": 58.0,
+        "distinct_1": 0.3103448275862069,
+        "distinct_2": 0.42105263157894735,
+        "distinct_3": 0.42857142857142855,
+        "longest_repeat": 34.0
+      },
+      {
+        "beam_width": 4,
+        "prompt": "in the morning",
+        "mean_logprob": -0.0724755286761077,
+        "n_words": 59.0,
+        "distinct_1": 0.5254237288135594,
+        "distinct_2": 0.6896551724137931,
+        "distinct_3": 0.7017543859649122,
+        "longest_repeat": 19.0
+      },
+      {
+        "beam_width": 4,
+        "prompt": "the sea was",
+        "mean_logprob": -0.06536165648957043,
+        "n_words": 59.0,
+        "distinct_1": 0.6101694915254238,
+        "distinct_2": 0.7586206896551724,
+        "distinct_3": 0.7719298245614035,
+        "longest_repeat": 15.0
+      },
+      {
+        "beam_width": 4,
+        "prompt": "one winter",
+        "mean_logprob": -0.07206666648808095,
+        "n_words": 58.0,
+        "distinct_1": 0.3620689655172414,
+        "distinct_2": 0.49122807017543857,
+        "distinct_3": 0.5,
+        "longest_repeat": 30.0
+      },
+      {
+        "beam_width": 4,
+        "prompt": "the fox",
+        "mean_logprob": -0.07188945991530393,
+        "n_words": 58.0,
+        "distinct_1": 0.5,
+        "distinct_2": 0.7017543859649122,
+        "distinct_3": 0.7142857142857143,
+        "longest_repeat": 18.0
+      },
+      {
+        "beam_width": 8,
+        "prompt": "the keeper",
+        "mean_logprob": -0.06523242888002036,
+        "n_words": 60.0,
+        "distinct_1": 0.6166666666666667,
+        "distinct_2": 0.847457627118644,
+        "distinct_3": 0.8620689655172413,
+        "longest_repeat": 10.0
+      },
+      {
+        "beam_width": 8,
+        "prompt": "in the morning",
+        "mean_logprob": -0.06714581751342848,
+        "n_words": 59.0,
+        "distinct_1": 0.4745762711864407,
+        "distinct_2": 0.5862068965517241,
+        "distinct_3": 0.5964912280701754,
+        "longest_repeat": 25.0
+      },
+      {
+        "beam_width": 8,
+        "prompt": "the sea was",
+        "mean_logprob": -0.06678560916627552,
+        "n_words": 61.0,
+        "distinct_1": 0.7868852459016393,
+        "distinct_2": 1.0,
+        "distinct_3": 1.0,
+        "longest_repeat": 1.0
+      },
+      {
+        "beam_width": 8,
+        "prompt": "one winter",
+        "mean_logprob": -0.06290800168383309,
+        "n_words": 60.0,
+        "distinct_1": 0.3333333333333333,
+        "distinct_2": 0.4067796610169492,
+        "distinct_3": 0.41379310344827586,
+        "longest_repeat": 36.0
+      },
+      {
+        "beam_width": 8,
+        "prompt": "the fox",
+        "mean_logprob": -0.0705967420597699,
+        "n_words": 59.0,
+        "distinct_1": 0.6949152542372882,
+        "distinct_2": 0.9827586206896551,
+        "distinct_3": 1.0,
+        "longest_repeat": 2.0
+      }
+    ]
+  }
+}

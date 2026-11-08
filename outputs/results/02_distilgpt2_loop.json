@@ -1,0 +1,70 @@
+{
+  "name": "02_distilgpt2_loop",
+  "seed": 42,
+  "data": {
+    "model": "distilgpt2",
+    "max_new_tokens": 60,
+    "results": [
+      {
+        "prompt": "In the morning, the sea was",
+        "decoder": "greedy",
+        "n_words": 48.0,
+        "distinct_1": 0.10416666666666667,
+        "distinct_2": 0.1276595744680851,
+        "distinct_3": 0.13043478260869565,
+        "longest_repeat": 42.0,
+        "text": " rising, and the sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea was rising. The sea"
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "decoder": "greedy, rep=1.3",
+        "n_words": 52.0,
+        "distinct_1": 1.0,
+        "distinct_2": 1.0,
+        "distinct_3": 1.0,
+        "longest_repeat": 0.0,
+        "text": " rising. The sun had risen and it looked like a great storm of wind blowing through its sails.\"\n\"I'm not sure what happened to my wife,\" she said with an expression that seemed as if her husband's face would be covered in tears from his eyes when he heard them say \"Oh"
+      },
+      {
+        "prompt": "In the morning, the sea was",
+        "decoder": "T=1, top-p=0.9",
+        "n_words": 46.0,
+        "distinct_1": 0.8260869565217391,
+        "distinct_2": 0.9777777777777777,
+        "distinct_3": 1.0,
+        "longest_repeat": 2.0,
+        "text": " solid and cloudy and caused massive flooding.\n\n\n\nWhen the low wind blew out, people rushed into their homes.\nSoon after the storm began, some residents resorted to flying blankets and heat blankets. People reacted as wind slowly rose from their homes, leaving only burning stoves.\nIt"
+      },
+      {
+        "prompt": "The meaning of life is",
+        "decoder": "greedy",
+        "n_words": 53.0,
+        "distinct_1": 0.1320754716981132,
+        "distinct_2": 0.1346153846153846,
+        "distinct_3": 0.13725490196078433,
+        "longest_repeat": 46.0,
+        "text": " to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as a whole, and to be understood as"
+      },
+      {
+        "prompt": "The meaning of life is",
+        "decoder": "greedy, rep=1.3",
+        "n_words": 53.0,
+        "distinct_1": 0.9622641509433962,
+        "distinct_2": 1.0,
+        "distinct_3": 1.0,
+        "longest_repeat": 1.0,
+        "text": " to be understood as a whole, and the existence of it can only become part or parcel.\nThis means that we are not in any position to say what our lives should look like without being able (or at least understanding) how they might actually feel when you're living with them - but rather"
+      },
+      {
+        "prompt": "The meaning of life is",
+        "decoder": "T=1, top-p=0.9",
+        "n_words": 53.0,
+        "distinct_1": 0.7169811320754716,
+        "distinct_2": 0.9423076923076923,
+        "distinct_3": 0.9803921568627451,
+        "longest_repeat": 3.0,
+        "text": " not bound by a rule; in actual life, it is bound by something else and would not be necessarily an object of matter. Once inside the dog's mind, you can say that there is a limited knowledge of what is outside of the dog's mind, and only that those things have that knowledge"
+      }
+    ]
+  }
+}

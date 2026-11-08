@@ -1,0 +1,46 @@
+# Every tunable number in the project lives here. src/config.py loads this file.
+# Override any key from the environment with DECODING101_<SECTION>__<KEY>, e.g.
+#   DECODING101_GENERATION__MAX_NEW_TOKENS=80 make notebooks
+
+seed: 42
+
+# Tiny from-scratch character model (src/model/char_lm.py). Trains in seconds on CPU.
+char_lm:
+  context: 8           # characters of history; short enough that greedy visibly cycles
+  embed_dim: 24
+  hidden_dim: 256
+  train_steps: 1500
+  batch_size: 256
+  learning_rate: 0.003
+
+# Small real model for genuine text (src/model/logits.py). Downloaded on first use.
+hf:
+  model_id: distilgpt2
+  max_new_tokens: 40
+
+# Optional local server. Never required by tests, notebooks, or the app.
+ollama:
+  model: "qwen2.5:0.5b"
+  url: "http://localhost:11434"
+  timeout_s: 60.0
+
+generation:
+  max_new_tokens: 300    # characters, for the char model
+  n_samples: 5           # samples per (prompt, stochastic decoder) in the arena
+
+decoding:
+  temperatures: [0.0, 0.1, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 3.0, 5.0]
+  default_temperature: 0.8
+  top_k_values: [1, 3, 5, 10, 20]
+  default_top_k: 5
+  top_p_values: [0.5, 0.7, 0.8, 0.9, 0.95, 0.99]
+  default_top_p: 0.8
+  beam_widths: [1, 2, 4, 8]
+  default_beam_width: 4
+  length_penalty: 1.0
+  repetition_penalties: [1.0, 1.1, 1.2, 1.3, 1.5, 2.0]
+  default_repetition_penalty: 1.3
+
+paths:
+  figures: outputs/figures   # every visual, as PNG
+  results: outputs/results   # the numbers and text behind them, as JSON

@@ -1,0 +1,21 @@
+{
+  "name": "03_text_by_temperature",
+  "seed": 42,
+  "data": {
+    "prompt": "the keeper",
+    "max_new_tokens": 120,
+    "by_temperature": {
+      "0": " climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small ",
+      "0.1": " climbed the stairs for the market was held on the days when his boat came out of the stairs for the last time. he lit t",
+      "0.25": " saw him from the hills above the sea. in the morning and the small round loaves that came out of the lighthouse she gav",
+      "0.5": " saw him from the hills above the sea. in the morning and the small round loaves that came out of the lighthouse stood a",
+      "0.75": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over th",
+      "1": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit chim how the sun. the dog grew ",
+      "1.25": " saw him from the hills above the sea. every night the gulls laughed at the reepplis rooncom the sun. the dog sled the k",
+      "1.5": " an theer dog e the gim wathe staris forne.\nthe french word for wat is cald.\ntho opring honme pat the edge ofes and ind ",
+      "2": " en thees doa. the seais sofro.\ntaed enont the the red g\neone ove brabgurdec weopl oar ofcame hime.\nane of\nonee qus aid ",
+      "3": " en th erydia. thu seais, ang he came. whopddge. jveerrewdonedon is nigt.\nehre opllra lofcnme himetha shofrowes vellk ty",
+      "5": " en jbyeaydoa.e mugjxlis nocgupwasynswjwnepddgg.ljsqende bonetoit fin gugmel e opllraryoncnmith, st,,abcof\nowes qdatk dy"
+    }
+  }
+}

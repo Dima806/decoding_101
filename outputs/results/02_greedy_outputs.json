@@ -1,0 +1,15 @@
+{
+  "name": "02_greedy_outputs",
+  "seed": 42,
+  "data": {
+    "decoder": "greedy",
+    "max_new_tokens": 300,
+    "outputs": {
+      "the keeper": " climbed the stairs for the market was held on the days when his boat came out of the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morn",
+      "in the morning": " and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belon",
+      "the sea was": " calm and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that ",
+      "one winter": " it was fast and cold, and it carried stones and branches down to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the smal",
+      "the fox": ".\nthe river ran down from the hills above the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belonged to the sea. in the morning and the small white boat that belong"
+    }
+  }
+}

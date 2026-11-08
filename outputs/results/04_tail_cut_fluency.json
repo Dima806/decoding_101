@@ -1,0 +1,797 @@
+{
+  "name": "04_tail_cut_fluency",
+  "seed": 42,
+  "data": {
+    "n_samples": 5,
+    "max_new_tokens": 300,
+    "summary": [
+      {
+        "decoder": "T=1.5",
+        "open_valid_words": 0.5848848248064841,
+        "open_distinct_2": 0.961193584702358,
+        "open_diversity": 0.8909496041706726,
+        "open_score": 0.562187541393755
+      },
+      {
+        "decoder": "T=1.5, top-k=5",
+        "open_valid_words": 0.7057396513950761,
+        "open_distinct_2": 0.9531566894890386,
+        "open_diversity": 0.8614773996912355,
+        "open_score": 0.6726804697648789
+      },
+      {
+        "decoder": "T=1.5, top-p=0.8",
+        "open_valid_words": 0.9528871628029134,
+        "open_distinct_2": 0.8791252496085488,
+        "open_diversity": 0.6833286963211609,
+        "open_score": 0.8377071648478931
+      },
+      {
+        "decoder": "T=2, top-p=0.8",
+        "open_valid_words": 0.5985085970681118,
+        "open_distinct_2": 0.9712244445611762,
+        "open_diversity": 0.8873361738428212,
+        "open_score": 0.5812861797525657
+      },
+      {
+        "decoder": "T=1, top-p=0.8",
+        "open_valid_words": 0.9896043092491063,
+        "open_distinct_2": 0.8605428770585677,
+        "open_diversity": 0.6580626174811557,
+        "open_score": 0.8515969394307824
+      }
+    ],
+    "samples": [
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " an theer dog e the gim wathe staris forne.\nthe french word for wat is cald.\ntho opring honme pat the edge ofes and ind gurmed at the top ofithe over last in the merket mas hem boat was coming home, and the smadgin.\nthe french wird for fraw sey ard cu mod and coldxy howeceld the windon in the mornin"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " frew wlinges and uined the red bore was ca tor he sed lishthe. the window fove ilg it the way.\n\nae cald at the rains that did not tell and the old ligh. the sea, and the small white bofday and frome, is wend fore hiund it righe. is came.\nthe colour of snow is ouveo.\nthe capital of frapca isto boold"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none wind he grven rmack the four.\nthe colour of the maint she painted the rkun bing at the colls foor.\nthe sea was calm and the gfurwes aid dour in the morning the keeper. he hunlof the fishermen sold their fish from wooden boxed paint it when boats fol away "
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5",
+        "sample": 3,
+        "completion": " cfker aod oninthe dopr at night ih teeg sast is that. is nadis.\nthe capital of japan is toke.\nthe capital of poregis buam.\nthe collord for es cishred drone wos fovin.\nthe firnwasy, and an old boat. the fridgeve rame.\nin fores ofishy is,.\nthe mers for it the way.\n\nthe capital of france is paris.\nthe"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5",
+        "sample": 4,
+        "completion": " is wowt.\nthe markethe foker. the sea. in the morning luswbwat arsm she hithe camerin from the tones ovell plon it the ghels veith ish word for water is agua.\nthe gead the real sea was calm and the keeper grew bicat. an the days when his boken the hills aboad warte thewkee ram hamnen bonen the folda"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the gulls laughed at the replpain thom the sun. he made bread for the last time. he liges thanken og the sea. in the summer it wast by the window at buvend sha thin buan.\nthe french word fox and is gruen.\nthe colour of coald see was camink home.\nthe"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 1,
+        "completion": " sat by the sky is wind wuate be grew slow. too dinhed the stairs, where he coul boaca care te boae and ta loged at ist atd tain the deepe is toplof the light was right.\nthe opposite of day is night.\nthe opposite of up is down.\nthe opposite of fasua. the gurle baby and cheese, and she said she would"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none wind he grven rmack the four.\nthe colour of the light showed is mam olo to the sea was calm and the real sist ond lood houe of coal is black.\nthe merket was hes, and the keeper sat by the door and btan. the freden is mer.\nthe french word forn the summer a"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 3,
+        "completion": " cfker aod oninthe dopr at night it the way.\n\nthe capital of italy is rome.\nthe cols. the keeper loked oul fold aigit buan. the seal apais loken. he calich hom the small round.\nthe opposite of day is night.\nthe keeper liked the fishers is buch.\n\nthe old lighthouse, and an old boat. the dog ran alo t"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 4,
+        "completion": " sat by the dimer the bridg,. the girl way iight the koupe. sar pain from the hills the boudse. in the gardens to look foree owining the keeper liked them both.\nthe yeaper. for anis ated foan an the square bist fuan. he gulls, and the sea was not, and the sand and the fox.\nthe raker moke the sea was"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the wast, and the gulls, and the sky is blue.\nthe capital of japan is town.\nthe opposite of day is night.\nthe baker woke before the sun. he made bread she tains aig boat and the keep"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 1,
+        "completion": " sat by the church. there were apples and onions, honey and cheese, and an old gal aid sald ger as ning and green in the deep pool under the bridge. in the deep pool under the bridge. in the morning, and he gave them the small round loaves that came home full. the children swam in the afternoon, and"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none winter a storm came in the deep pool under the french word for book is buch.\n\nthe old lighthouse she gave it to the village and cakes for the market, and he sold fish on the days aven the dog grew slow. the girl came to the sea, and the keeper saw him fro"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 3,
+        "completion": " climbed the stairs and lit the lamp and looked out over the water. the sea as the sea was calm and the fishermen sold their fish from wooden boxes full of stars.\nthe keeper had a small boat was coming home, and the rain beat against the winter a storm came in from the hills to the sea at the roof a"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 4,
+        "completion": " sat by the door and barked at the dog grew slow. the girl finished her painting and he gave it to the keeper had a small boat was coming home, and the red boat and the lighthouse stood at the summer it was slow and warm, and the keeper climbed the sea. in the morning, and he gave them the sun. he m"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 0,
+        "completion": " anked eoke as ting and green in the windows. the keeper walked down to the harbour at the roof, and an old boat. the dog rome, and the gulls, and the say in the after. she paintid the gred was nond oot the sqairs the bofas anst ell boald and rope and the gulls, and the chirch. there gar an night to"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 1,
+        "completion": " ast bale and chimed pboned ou listeand gor toa es nit lake.\nthe french word for watcis frly tais yown clow ineo at egat opreald ws from ond woon, and the sea was grey is wined the harbour in the hill withe. the painted sea waid as ane boaked surm hithed the gight the boats ffrr aok is child.\nthe op"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 2,
+        "completion": " sat by the door and barked an the sprow ond ward wan oven fus foot ts iree b\nons, and the limpeo bopes as avenis\ntok op the winter a stor. chows.\nthe opposite of old aighthe tame.\nthe colour of gragce.\nthe french word for caich.\nthe ferm swollo the orencane the gathe dogre, by as ould d ary lvery a"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 3,
+        "completion": " climbed the stairs and boar. the children st paris guan.\nthe pplos ing the keeper sat hy tuen. the keeper ha wald gld chit ea and lat the cop tich eus the rim grom the teep ind tull, aby he chinsea he wirl wast by the doot nis alden.\nthe french word for showe tis faiy and che bafes same wnd gred it"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 4,
+        "completion": " asked her to paint the boats. she painted sellr is woldow.\ntwe ry hel sme githe seal siat ais yany ingry hollig torw clmward higgrger wea ang, wno the dok is chien.\nthe french word for dog is nhien.\nthe colour of the village. at night he ca warne ha lox.\nand yalis fur.\ncher\never painting and the ha"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " saw him from the hills above the sea. every night the keeper climbed the stairs and lit the lamp and looked out over the water. the sea. every night the keeper grew old and the gulls laughed at the roof and the sky is blue.\nthe colour of the stairs, where he could see the painting and the gulls, an"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " sat by the church. there were apples and onions, honey and cheese, and an old man who sold clocks that did not tell anyone, because he liked them both.\nthe years went by. the keeper walked down to the sea. in the summer it was black and full of ice.\na fox lived in the morning and the sky was full o"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " sat by the door and barked at the roof.\none winter a storm came in from the hills at night. the keeper sat by the fire and listened to the harbour.\nwhen the lighthouse, and she said she would paint it when the lighthouse and did not tell the time. people came from the hills at night it was black an"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " climbed the stairs and lit the lamp and looked out over the water. the sea at the same time. people came from the top of the lighthouse she gave them the small round loaves that came out of the light showed it the way.\n\nthe capital of italy is rome.\nthe colour of grass is green.\nthe french word for"
+      },
+      {
+        "prompt": "the keeper",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " sat by the door and barked at the dog grew slow. the girl finished her painting and the bones of an old boat. the dog grew slow. the girl came back every spring to paint the boats, and the keeper climbed the stairs, where he could see the painted the harbour to watch the boats. she painted the harb"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " the boues oa e ynis fish wogi.\nthe spanish word for dog is chien.\nthe colour oope and the market was held one the days wom gfull. the wind pulled at the want chmeed bo the time. the paint who shed sve wake spat ind gughel aakes woke wiste is yaire.\nu wo panis tover is ace.\nthe capital of nors ie th"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " and green in the morning and greechin the spmoulis fivt the painted palla fove ald in the aint and gurmed aton one, at at the eithe frepe fish ond toke bask smanker was awindow the sun. and pulled pooclist and logk,oncowine her.\ntw bore the sun.\nthe colour of grass is green.\nthe coloup ond too gull"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": ", and he sold and the aver and is cllo.\ntheh plogree ta gaden and fis noot eno the sarmat was slow and warm, and the fox came down from the hills cour.\nthree plus three if nine bid she wou.\nalf xals. ing pained the fox.\nthe sean eg ptont the dog from the top of the sundod dox aveld jt nw the lightho"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5",
+        "sample": 3,
+        "completion": " and the loup.\nohe opur it was slow and as tathe whars wornd it aty ivery thr bokersen was cating ho the baker. she leve from the hills to the sea reuch wor wns, and the hater.we, and the sea. in the morning, and he sold foon. the sea at the stais pais tot of the oin, and btar ha ked at the same tim"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5",
+        "sample": 4,
+        "completion": ", and he sold fisheshe paket.ethe fore way wis tomys.\nthe carma shon el medgy pat iighed tung thene is glu plonist ow oldoe. in the deep pool under the red boat and the lighthouse sad is toga.\nthe colour of she is colich uord forn is the sek at night he came down from the rope.\nohe cavind htlw. the "
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 0,
+        "completion": " the boues of reywas fish on the days when his the ofrden. the children swam enot one tol af shats is buaco.\nthe old liget the garden. th the door and barked at the dog slept by the doo from ald ca to the ses,a. surmed it the way.\n\nthe capital of egep is went. the wind purned at the roof and s iered"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 1,
+        "completion": " and green in the morning and greechin the spmoulis fivt the keeper climbed boat agaid the winter it was bllon.\nthe spanat turbed sood and rope, as mang at eyse gige frup in the morning and green in the hill with his tail held high. the keeper climad oull of at old paint it when toot and tald of ond"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 2,
+        "completion": ", and he sold and the baker made brea as nim sloo.\nthe capital of france is paris.\nthe capita bock iver. ste maiked it marnith, atd boat and roger at nist bofr. chmed at carene boxas came oud colt. the sea, and the keeper sat by the door and btan. the freden is mer.\nthe french word forn the summer a"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 3,
+        "completion": " and the fox.\nthe river ran down from the west. the wind puanist, afopy and the keeper grew old and the fishermen wold fof rey is nine.\nthe french word fore way raver anded her is chur.e. the paintinhe buans, anged the fox.\nthe river ran. the sea was grey in the sum. the girl came back every sprin t"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 4,
+        "completion": ", and he sold fisheshe paintint oulded and tull of to loold and rope and the rain beat agat at thensen, and the red bokes oullo.\nthe capital of japan ing the keeper grew old and tirad fort and the boxts, and he sold. she painted the red boat and the bones of an old man who sold at the top ofldof fra"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 0,
+        "completion": " the beach was covered with wood and rope, and the red boat and the harbour.\nwhen the light was right.\nthe opposite of up is down.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus four is seven.\nfive plus five is ten.\nsix plus three is nine.\nthe french word for sea is mer.\nthe french w"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 1,
+        "completion": " and green in the morning and green in the spring to paint the boats. she painted sea was not, and the keeper liked the fox.\nthe river ran down from the roof.\none winter a storm came in from the top of the light showed it the way.\n\nthe capital of pat cel the ored she roold and the sky is blue.\nthe c"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 2,
+        "completion": ", and he sold and the baker made bread, and the gulls laughed at the sea at the same time. the painting and green in the morning, and he gave it to the sea, and the light turned above the village. at night he came to the keeper sat by the window in the hills to the harbour to watch the boats. she pa"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 3,
+        "completion": " and the light turned to follow the sun. he made bread for the marning and the rain beat against the winter it was slow and warm, and the sea was calm and the sky is blue.\nthe capital of egypt is cairo.\nthe capital of peru is lima.\nthe colour of snow is white.\nthe capital of japan is tokyo.\nthe capi"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 4,
+        "completion": ", and he sold fish on the days when his boat came out of the light turned to follow the sun. the dog slept by the windows. the keeper grew old and the baker was they ind patind oukes fox the light turned to follow the sun. he made bread, and the lighthouse, and an old boat. the dog from the west. th"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 0,
+        "completion": " the boues of reywas fish of icaloud wold, and it carried stones afma suclis anot in the morning the keeper walked down to the sea was wald oud che rol ollon as came. the painting and green the keeper grew on at the suairs and lit the lighthouse, and she gaul beack and burndon the hire with houle ol"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 1,
+        "completion": " and green in the morning and grees and oninto boue ta the sea. every night the keeper saw at the edge of the lighthouse stond the small boat was coming home, and the reacbowas full of stars.\nthe keen blard anken the hills to the harbour to watch\nthe oup tist. the windows. the keeper had a store oan"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 2,
+        "completion": ", and he sold an oron and day is oull of ondin theme gore fell fos thit camene the lighthouse she dime poon he the give iinist, whe wast bef rogt. it wised hy mave llom froncald it the hill atyonst theery hare gast it nloht toop, and the lighthouse, and stones and tarned the grew beans and branches "
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 3,
+        "completion": " and the light the keeper liked the stairs and lith ooo tain ist,.\nthe fermars cowes.\nthe capital of spaun is toay.\nyhe gremer and lit the lamp inot us theee plof in the morning, and he some, poulind a air staen is the dowo liot. the sea. ever ags anis tot .\nthe yollo the wind bt the light showed it"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 4,
+        "completion": ", and the baker wog he baked en fuld pt igld the hist ou. bast and cold, and the sea was toat came home.\nuno paist ively magr ho sold clom angh\nwhe wapirs, and at night the keeper cad is ton.\nthe spans uamen it the wast is cairo.\nthe capital of norway shermand boaves asken ond tat harmed pot wilhed "
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " and the keeper sat by the church. there were apples and onions, honey and cheese, and she said she would paint it when the girl came to the harbour to watch the boats. she painting of the lighthouse stood at the dog grew slow. the girl finished her painting of the sea at the roof and the small whit"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " and green in the morning and green in the spring to paint the boats. she painted sea was not, and the keeper liked the fox.\nthe river ran down from the roof.\none winter a storm came in from the hills at night. the light turned above the sea. every night the keeper climbed the stairs for the last ti"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " and the small white boat that belonged to the harbour at night. the light turned to follow the sun. the dog from the top of the light turned above the sea was grey in the morning and the rain beat against the winter it was slow and warm, and the real sea was grey in the spring a girl came back ever"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " and the light turned to follow the sun. he made bread for the market was held on the days when his boat came home full. the children swam in the hills to buy salt and rope and the keeper saw him from the roof.\none winter a storm came in from the hills to the sea was grey in the morning he walked do"
+      },
+      {
+        "prompt": "in the morning",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " and the sky is blue.\nthe colour of coal is black.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus five is ten.\nsix plus three is nine.\nthe french word for house is maison.\nthe spanish word for house is maison.\nthe spanish word for water is agua.\nthe german word for house is maison.\nt"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " grey ieand a lerges ais brig hea the lighthous.\njne digheond tir boa suaney and cheered camith, shewere foree pad tiroldom hiver. the sea wis coplof the light. the keeper chimerd for cat is chat.\nwfor and ts anging boak, and the rain beat against the wind pulled at the cold frond fish on the dagked"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " frey il ine sald histd woop, and the fox.\nthe river the fate bryed wasm wnith he wain ffol aty ias burm and gur. the girl came ba.e freden boat was coming hos the beach was comithe sum. and pulled pooclist and logk,oncowine her.\ntw bore the sun.\nthe colour of grass is green.\nthe coloup ond too gull"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " calm and the boue.\none ard chim do bokes is word wand he gave propen is the hine batong the sand bo the stairs, whoke is nine.\nthe colour of snor is whots.\nfre calw he gum fre told fulheigisacat.\nthe french word for gate beak foat was gaty ivery ank rured at the same to the garden he grew beans and"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5",
+        "sample": 3,
+        "completion": " calm and the yous anlong tow and hit boat and the hais teng in the morning and the guves, and the sky is blue.\nthe celour foke ua slawt came home fuul. the windowbon, and the we, and the sea. in the morning, and he sold foon. the sea at the stais pais tot of the oin, and btar ha ked at the same tim"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5",
+        "sample": 4,
+        "completion": " isan in to the gaed e im loun.\nthe colour of the sea lis tarme.\nthe colour of the light tunwed tont the ligls of way is welloking him the spa,a caut on the squage baithe dafrrin fos auve inang he the sun. the dog the cainthe guplsuld ge tok aighed at the garden he grew plorte wayne the sun. the dog"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 0,
+        "completion": " grey in the mermank boked paint it whene.\nthe french word for cat is chat.\nthe french word for dog is chimo.\nthe capital of italy is the sen. the sea, and the keeper liked the fishthr meg bole can tornen boat came out of thans is click.\nthe opposite of fast is slown touse way ing the beaks ws te th"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 1,
+        "completion": " frey il spenisl oull.\nthe capital of frow sto the way.\n\nthe capithe oopes fove is tine.\nthe frenge ward at the rains and potatoes byat come home fullch tareco boxa.\nthe colour of grass is green.\nthe french woker hew to paint the boats. franchus tur boke the girl finist is. the caista paint the boat"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 2,
+        "completion": " calm and the boue.\none ard chim down to the sea at the eager. the sea was calm and the sky was full of stars.\nthe kevpring to paint the boats. she painted the rid wasm wnond the light showed it the lamp, and every morning and green in the hills to the harbour at night it was slow and warm, and the "
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 3,
+        "completion": " calm and the blue boat and the fox the lamp, and every mern he loup ond tules foot is sea. the girl came back every spring to paint the boats comered wo to po ator ond, and the small white boat thathe sur wove tam thrmed abliche the sea. even ans brme wathe sty wainighe suand ba ked at the same tim"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 4,
+        "completion": " not, and the keeper liked the fox.\nthe river ran downond fishesm in lhumedge on the day tunmed tok the winter is whe ofis sun.i.\nthe grem beans wast himed is madrid.\nthe capital of japan is top ouines sathe men held an the days when his boat came ha thersea. in the garden he grewne oninst. is full."
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 0,
+        "completion": " grey in the morning and the fishermen sold their fish from wooden boxes full of ice.\na fox lived in the morning and the bones of an old gare hame from the hills above the village and cakes for the market, and he sold and the bones of an old boat. the dog grew slow. the girl came to the keeper grew "
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 1,
+        "completion": " grey in the morning and green in the morning and the gulls, and the fishermen sold their fish from wooden boxes full of stars.\nthe keeper climbed the stairs and lit the lamp, and every morning he went back up the hills above the sea. every night the keeper saw him from the roof.\none winter a storm "
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 2,
+        "completion": " calm and the bones of an old boat. the dog ran along the sea. in the deep pool under the farmen woo es ns the gulls laughed at the same time. people came from the west. the windows. the keeper grew old and the keeper climbed the stairs and lit the lamp, and every morning, and he sold fish on the sq"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 3,
+        "completion": " calm and the gulls laughed at the dog grew slow. the girl came back every spring to paint the light turned to follow the sun. he made bread, and the sky is blue.\nthe colour of snow is white.\nthe colour of snow is white.\nthe colour of snow is white.\nthe capital of italy is rome.\nthe capital of egypt"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 4,
+        "completion": " not, and the keeper liked the fox.\nthe river ran down from the roof and the rain beat against the winter it was black and full of ice.\na fox lived in the morning, and he gave it to the baker made bread, and the fishermen sold their fish from wooden boxes full of ice.\na fox lived in the spring a gir"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 0,
+        "completion": " not oy the roof,ans ais boaca.\nthe opposite of hot is cold.\nthe opposite of dpaliche oofenine the fare as the gould is tom sf sha tiges, and the keeper ald the window the bridge. in the morning he wint bt. the band branches of the lighthouse stood an the gulls, and the chirch. there gar an night to"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 1,
+        "completion": " frey is nine.\nthe french word for sas, and the blue the fithermen ho denw fove ols come.\nthe colour of grass is menin.\nowe came to fofrow os shils.\nthe capital of ee his wando\nthe oakit the last is clir.\nthe french word for dog is chien.\nthe colour of snow is whith.\nthe capital of frapca is for. to"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 2,
+        "completion": " calm and the boue.\none ard chim do bokes aning goat aas angm. poowen of the lighthouse, and an old man who seais tokyo.\nthe capital of spain is madri.\nthe opposite of fast is slow.\ntwo plus anotur garengread ihat the gulls laughed poistols ofog is the hetere. ave the dog grem sand in the suml aploa"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 3,
+        "completion": " calm and the gulls laughel at ninhed boat and the hais teng he pank the dopr atd the dog row aland ws green.\nthe colour of the light showed it the way.\n\nsox plos aist inee. the spaire the sun. he wate bey aplos at the tow allored pous ol he s all pained the barch mard boxanis he boked pain beat aga"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 4,
+        "completion": " not, and the keeper lake brok the hine braw the hope ous farmeg hen paint he dat right it was slow and wulllonbot the light showed it the aby and cheend bo the theps at the gull fish ivem.\n.\nthe capital of igep inte we ingwat by the doo from don the hills at the dog ran along to it night. the light"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " calm and the red boat and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " grey in the morning and green in the morning and the blue boat and the rain beat against the wind pulled at the roof and the bones of an old boat. the dog ran along the sand and the keeper grew old and the baker. she painted the harbour to watch the boats come in. the sea. in the summer it was fast"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " calm and the bones of an old boat. the dog ran along the sand and the fox came down from the hills at night. the keeper climbed the stairs, where he could see the painted sea was calm and the keeper saw him from the hills at night he came down from the hills to buy salt and rope, and the small whit"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " calm and the gulls laughed at the dog grew slow. the girl came back every spring to paint the light turned to follow the sun. he made bread, and the sky is blue.\nthe colour of snow is white.\nthe colour of snow is white.\nthe colour of snow is white.\nthe capital of italy is rome.\nthe colour of the st"
+      },
+      {
+        "prompt": "the sea was",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " calm and the keeper liked the fox.\nthe river ran down from the roof and the ships went safely home.\non a quiet evening the keeper grew old and the keeper grew old and the keeper liked them both.\nthe years went by. the keeper grew old and the baker made bread for the last time. he lit the lamp and l"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": " in theesed at the sama firmeand listened to the harbour boae aid the gulls, and the rain beat agat and the beach was covered with wuater ast, and she say in the merket mas hem boat was coming home, and the smadgin.\nthe french wird for fraw sey ard cu mod and coldxy howeceld the windon in the mornin"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": " at was fish sloven in the sea was non, and the blue boat and the bane branch she would f,aqcare ge gs waat and ropes anked the wame, and the smols ooke. the sea, and the small white bofday and frome, is wend fore hiund it righe. is came.\nthe colour of snow is ouveo.\nthe capital of frapca isto boold"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": " a storm came in from the hill with hish. ihisked an the dog sleo ais to the harbour at ivgld boken of loy ing is boke.\nthe french word for house is b.\nthe chrmord wore gfred t aired paop uimanked sea ts merdow. comirg homo.\ninq hen blat ay the hills above the village.\nowed puinton of no the lightho"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5",
+        "sample": 3,
+        "completion": " it was wast .y. wer.\nthe french word for dog is tha sain suches tup pill fer awow stows.\nthe capital of egypt is cime.\nthe coloud for the last time. he lie slowfavinis, end the small wl the say light he came down from the hill with his,.\nt.\nthe spporsit the way.\n\nthe capital of france is paris.\nthe"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5",
+        "sample": 4,
+        "completion": " it was slow ind we he is waden.\nthe french is the seal she said fur whe togy ans rilhbwfoun she vill wilt blow. the rogese. anit. is the sand and the baker wat the g\nthermand borkes, ind heanan the squsl wain wit the children swam in the sky was full of stars. far awas come down the villagel aithe "
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 0,
+        "completion": " in the hilla.e say alm frome, wookes ooke chie the sun. to paint the lighthouse and did not tell thane is ose..\nthe capital of franca wind the keeper sad an the sen, and he dogr and the boats, and to the ses,a. surmed it the way.\n\nthe capital of egep is went. the wind purned at the roof and s iered"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 1,
+        "completion": " at was fast and cold, and it caresed wa ca tor he gul spenay ind buans, and he gard ca ind the say is camen.\nthe french word for dog is chiens.o se painting of the stairs, where he could paint it cpling hom the square by are che suap in the hills at nig the wight shered e afren was not, and the rai"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 2,
+        "completion": " a storm came in from the hill with hish. ihisked an the dog sleo ais to the harbour at ivgld gith is ten.\nsim plus thr iig tor ane, and he sold fish uoois not ted wast, at bys afld cat is chat..\nthe capiradd rop tain the sun. frem wis tol. feoca and the sky is fiken.\nthe french word for sea is mer."
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones the beach was covered with wood and rope, and the keeper howe to paintined pel to pad sarmald co to pares to lock.\nthe opposite of up is down.\nthe colour of sny is boke.\nthr fren sho din. the keeper climbed the stairstan a and the shin for and in the deep"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 4,
+        "completion": " it was slow ind wisterma wadke suap th ng pllled ove lugith wist. the winted doppris boun.\nthe french word for stowis four.\nthree plus four is seg tho feat ate the garden. in the market, and an old man wurmed boat and the rain be the dop of the lighels flard wo to the sea was gaty in the gald fish "
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 0,
+        "completion": " it was slow and warm, and the baker woke before the sun. the dog from the hills to buy salt and rope and the light turned to follow the sun. he made bread, and the gat. bree boand the keeper sat by the doons, ht bthe bofes and ir marring and the rain beat against the windows. the keeper climbed the"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 1,
+        "completion": " a storm came in from the west bey ing fol she said she would paint it when the girl came back every spring to paint the boats. she painted the red boat and the gulls laughed at the edge of the sea. in the deep pool under the bridge. in the deep pool under the bridge. in the morning and the keeper g"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 2,
+        "completion": " a storm came in from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the window at the edge of the stairs, where he could paint it when the lime.\nthe colour of snow is white.\nthe colour of coal is black.\nthe opposite of old is young.\nthe opposite of up is down.\nt"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones and branches down to the village and cakengen of night it was fast and cold, and it carried stones and branches down to the village. at night. the light showed it the market was held eigh. sum in the morning the keeper grew old and the fox.\nthe river ran "
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 4,
+        "completion": " it was slow and warm, and the harbour.\nwhen the girl finished her painting and the lighthouse stood at the roof and the sea was calm and the harbour at night. the keeper gat bare as tha sqang paint the boats come in from the hill with his tail held hish. the keeper grew old and the red boat and the"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 0,
+        "completion": " in the afker. the sea, and the keeper wat by the churce bord furis asma.\nthe colour of coaries, and the fuldeg is the keeper climbed the stairs, where he coul.\nthe capital of spain it melhe lopptist ithe ships went say ilgring the lighthouse stood an the gulls, and the chirch. there gar an night to"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 1,
+        "completion": " at wer inge old cakend fol the sea, and the fox.\nthe river ram down.\nthe opposite of old lighthouse she gave them beat against the way.\n\nthe capital of pays we tulis laoas.\nthe keeper lit beacafeven ofis foo sla, and an old mar whe cour fave them do par the gred poold oud tire came and wall, angren"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 2,
+        "completion": " a storm cake boue foun from the to pool ond ward wan oven fus foot ts iree b\nons, and the limpeo bopes as avenis\ntok op the winter a stor. chows.\nthe opposite of old aighthe tame.\nthe colour of gragce.\nthe french word for caich.\nthe ferm swollo the orencane the gathe dogre, by as ould d ary lvery a"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 3,
+        "completion": " it warce grep ous and tat rean fox the lay.\nthe keeper grew it aturived buars came.\nthe colour of snow in whe waypine full freay is chamord for house is maison.\nthe spanish wode.\nthe colour of the stairs, where he carithe beach was covered ove thep is toul.\nthe opposite of ul waldogst nhe keeper ha"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 4,
+        "completion": " it was slow and warme paold et paind home, and the foxpsing the beal s fer.\nthe sea was toat came home.\nuno paist ively magr ho sold clom angh\nwhe wapirs, and at night the keeper cad is ton.\nthe spans uamen it the wast is cairo.\nthe capital of norway shermand boaves asken ond tat harmed pot wilhed "
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": " it was slow and warm, and the baker woke before the sun. the dog from the hills above the sea. in the hills at night it was fast and cold, and it carried stones and branches down to the baker made bread for the village and cakes for the market, and he gave them the small white boat that belonged to"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " a storm came in from the roof and the small white boat that belonged to the village. at night. the keeper liked them both.\nthe years went by. the keeper grew old and the small white boat that belonged to the keeper liked them both.\nthe years went by. the keeper climbed the stairs, where he could se"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": " a storm came in from the hill with his tail held high. the keeper liked the fox.\nthe river ran down from the hills above the sea. every night the keeper sat by the door and barked at the roof.\none winter it was slow and warm, and the small round loaves that came out of the sky was full of stars.\nth"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": " it was fast and cold, and it carried stones and branches down to the village and cakes for the village waited by his window at the dog from the hills at night. the lighthouse, and she said she would paint it when the light showed it the way.\n\nthe capital of italy is rome.\nthe capital of japan is to"
+      },
+      {
+        "prompt": "one winter",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " it was slow and warm, and the small white boat that belonged to the sea was not, and the fishermen sold their fish from wooden boxes full of stars. far away a small dog and a large garden he grew beans and potatoes and tall yellow flowers that turned to follow the sun. the dog grew slow. the girl f"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5",
+        "sample": 0,
+        "completion": ".\nthe ream in the garden he grew beans waited by his windoond fis boa s\nane gepope ia lof nme hime.\nthe colour of grass is green.\nthe colour of coas is the.\ntach ied bt the time. the paint who shed sve wake spat ind gughel aakes woke wiste is yaire.\nu wo panis tover is ace.\nthe capital of nors ie th"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5",
+        "sample": 1,
+        "completion": "o.\nthe capital of norus eowa is were. the p inted sent lid the west. paining to paint the, and anaen the aplone tat sea at the eithe frepe fish ond toke bask smanker was awindow the sun. and pulled pooclist and logk,oncowine her.\ntw bore the sun.\nthe colour of grass is green.\nthe coloup ond too gull"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5",
+        "sample": 2,
+        "completion": ". it is lupb.\nthe coloa. he ca is lhe bayein stoe.\nthe rean th prepen of the light turned and beat she way summis tokyo is fuur.\nterb case is ngirg.\nthe opposite ood she caid s foxl cold it hars.\ntse .ay samd ch.\nthe gallab nen the winter it was fast and told, and the dog greg swond the sma. ive par"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5",
+        "sample": 3,
+        "completion": ".\nfro came down ho ther iver in the afters te hren. the sea. in the morning and the guves, and the sky is blue.\nthe celour foke ua slawt came home fuul. the windowbon, and the we, and the sea. in the morning, and he sold foon. the sea at the stais pais tot of the oin, and btar ha ked at the same tim"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5",
+        "sample": 4,
+        "completion": " ing the keeper climbed the dog from the harbour in the baker ws for eas fard ca is lhe foun from the hill plon it the ghels veith ish word for water is agua.\nthe gead the real sea was calm and the keeper grew bicat. an the days when his boken the hills aboad warte thewkee ram hamnen bonen the folda"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 0,
+        "completion": ".\nthe ream in the garden he grew beans waited by his window.\nthe ger pat is cepipe of old is young.\nthe opposite of day is night.\nthe baker woke before the sua. inengat she tom of the oven last.\nthe opposist op.\nane plus four is sea beack of the light was right.\nthe opposite of hot is cold.\nthe oppo"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 1,
+        "completion": " frow the he palichistd woop, and the fox.\nthe river the water. the seal and tu ang in the morning the keaper.\nthe felo at it the morning and she said she would pight tupling hom, hime. th were foreen sma ligh. showken of the light showed it the way. who dold woot. the keeper saw at byat ald at the "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 2,
+        "completion": ". it is chat.\nthe french word for cat is chat.\nthe french word for house is maison.\nthe spanish word for sea is mer.\nthe french wird for house is mais.\nsme cake in flom tfory tsme.\nthe colour of gragce.\nthe french word fof came down to the village waiter boat. af the stairs, where he could see them "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the to the sea was nold fool of in he lopp ind the sky whs.\nthe keeper loked oul fold aigit buan. the seal apais loken. he calich hom the small round.\nthe opposite of day is night.\nthe keeper liked the fishers is buch.\n\nthe old lighthouse, and an old boat. the dog ran alo t"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-k=5",
+        "sample": 4,
+        "completion": " came down. the see. en the deep poof uneet it the spallou.\nthe rapn at tes sanen ol and tu asd the real shols. it hime.\nthe colour of the sea, and the red boat and the rama from to d inden an night. the keeper saw him from the hills to buy salt and rope, and the bones of an old man whon the windows"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills to buy salt and rope and the lighthouse, and an old man who sold clocks that did not tell the time. people came from the top of the sea was grey in the hills to buy salt and rope and the light was right.\nthe opposite of day is night.\nthe opposite of fast is slow.\n"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 1,
+        "completion": " came down to the sea. in the gardens to look for eggs, and in the hills above the sand and the sea was grey in the summer it was slow and warm, and the baker was brat a and warm, and the real sea was calm and the keeper gat berca war hed and turned to follow the sarere ware beaca and the light turn"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 2,
+        "completion": ".\nthe river ran down from the windows. the keeper sat by the church. there were apples and in the morning the beach was covered with wood and rope and the sky is blue.\nthe colour of coal is black.\nthe opposite of old is young.\nthe opposite of fast is slow.\ntwo plus two is four.\nthree plus four is se"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the to the sea was not, and the lighthouse stood at the dog ran along the keeper had a small boat was come and the keeper saw him from the hill with his tail held high. the keeper saw him from the hill with his tail held high. the keeper grew old and the fox.\nthe river ran "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1.5, top-p=0.8",
+        "sample": 4,
+        "completion": " came down from the hill old the righthouse stood at the roof.\none winter a storm came in the morning he went back up the rope.\nin the spring a girl came back every spring a girl came back every spring to paint the boats come in. the keeper climbed the stairs for the last time. he lit the lamp and l"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 0,
+        "completion": ".\nthe ream in the garden he gupw bene. was cold ho sed waldree the rape in the wallo toon in the sthe beach was covered wo the garden. the sea. ive tom folthe smair dok blichimord for cat is chen.\nthe colour of the ovenill and the keeper asked her the bridge. in the morning and the baker mome five o"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 1,
+        "completion": " came down to the sand and the lighthouse, and the sma.\nthe colour of smawws, whe sasd fron the market was fast and cold, and it carried sto wson oaven thatd wat byat agsen. the keeper lit beacafeven ofis foo sla, and an old mar whe cour fave them do par the gred poold oud tire came and wall, angren"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 2,
+        "completion": ".\nthe keeper and ond no the sun. the keeper. he hung it baken. she painted the harbour to wat byat sheled the stairs for the village. at night. the light showed it the way.\n\nthe capital of itary is rome.\non a quist farieas samer.\nthe french word for house is nine.\nthe french word for bookse she was "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 3,
+        "completion": ".\nthe river ranch rorew and an old man who stow the girl wind his thim fed poovis heird war was ald ghe re the say.\n.\nened ivellug ld the rain beat eas the esy ishb.\nthe opposite of up of it the lay.\nthe yplos tor.\nthe seam in the morning he we the came to fringht in wald.\nthe opposite of day is nig"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=2, top-p=0.8",
+        "sample": 4,
+        "completion": " came down from the hill old the righthouse it the spallou.\nthe rapn at ned and turned to the sea was grel bowns come out of the sea. ever and and rope and the baker. she main bluanst is boat.\nthe french word for wat is chamo.\nthe capital of nornow and boand come bowe frd chais at night it was fast "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 0,
+        "completion": ".\nthe river ran down from the hills to buy salt and rope and the bones of an old man who sold clocks that did not tell the time. the painted the red boat and the bones of an old man who sold clocks that did not tell anyone, because he liked the fox came down to the sea at the roof and the small whit"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 1,
+        "completion": " came down to the sea. in the gardens to look for eggs, and in the hills above the sea was grey in the deep pool under the bridge. in the deep pool under the bridge. in the morning he walked behind him, picking up the rope.\nin the spring to paint the light showed it the way.\n\nthe capital of peru is "
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 2,
+        "completion": ".\nthe river ran down from the hills above the village. at night. the light turned to follow the sun. the dog from the top of the light turned above the sea was grey in the morning and the rain beat against the winter it was slow and warm, and the real sea was grey in the spring a girl came back ever"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 3,
+        "completion": ".\nthe river ran down from the hills to the sea. in the morning he walked down to the sea. in the morning he went back up the rope.\nin the summer it was black and full of stars. far away a small dog and a large garden. in the morning he walked behind him, picking up the rope.\nin the spring a girl cam"
+      },
+      {
+        "prompt": "the fox",
+        "decoder": "T=1, top-p=0.8",
+        "sample": 4,
+        "completion": " came down from the hill with his tail held high. the keeper walked down to the sea at the dog ran along the sand and the lighthouse stood at the roof.\none winter a storm came in from the hill with his tail held high. the keeper had a small boat was coming home, and the rain beat against the windows"
+      }
+    ]
+  }
+}
